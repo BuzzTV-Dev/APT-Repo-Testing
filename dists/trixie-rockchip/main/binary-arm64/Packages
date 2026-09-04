@@ -195,16 +195,16 @@ Description: Documentation of the FFmpeg multimedia framework
 
 Package: gir1.2-gst-plugins-bad-1.0
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 536
 Depends: gir1.2-gobject-2.0, gir1.2-gst-plugins-base-1.0 (>= 1.24.0), gir1.2-gstreamer-1.0 (>= 1.24.0), gir1.2-vulkan-1.0, libgstreamer-plugins-bad1.0-0 (>= 1.24.10)
-Filename: dists/trixie-rockchip/main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.24.10-2-rk_arm64.deb
-Size: 255616
-MD5sum: 52850f63af4b5d5e88615ea44ab01fe4
-SHA1: 9c0456daa27409666ab303c7af444b00bde8f011
-SHA256: 3bb5400a00216f8ed6a398f7b899e37e9564a0b90443e20d1af81d875b1866a4
+Filename: dists/trixie-rockchip/main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.24.10-3-rk_arm64.deb
+Size: 255644
+MD5sum: 8c03fe9989bb3bb4b04cd262690cb0f2
+SHA1: bb07602e94e701f8e75a9b891a73001a1d184246
+SHA256: 0840e8fe5f7e8803a8e9522f07a9098c36f4f7777b5d13bef07f25b0056e3053
 Section: introspection
 Priority: optional
 Multi-Arch: same
@@ -228,16 +228,16 @@ Description: GObject introspection data for the GStreamer libraries from the "ba
 
 Package: gir1.2-gst-plugins-base-1.0
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 543
 Depends: gir1.2-gio-2.0, gir1.2-glib-2.0 (>= 0.9.12-4~), gir1.2-gmodule-2.0, gir1.2-gobject-2.0, gir1.2-gstreamer-1.0 (>= 1.24.0), libgstreamer-gl1.0-0 (>= 1.23.1), libgstreamer-plugins-base1.0-0 (>= 1.23.2)
-Filename: dists/trixie-rockchip/main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.10-1-rk_arm64.deb
-Size: 177888
-MD5sum: 21579c50284fe5c140014c1ed4fd9fc8
-SHA1: 8de9b68c9757bad0d7690b73d74b36e5a4e41a81
-SHA256: f287dfd537a935cdb0721d9762c9b4db7018880f09b60f99099082de3e48436a
+Filename: dists/trixie-rockchip/main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.10-2-rk_arm64.deb
+Size: 178000
+MD5sum: daf2f1d99a2e2f292c29b6d6f02cd5d5
+SHA1: 5f7a00fd94c9c0fa7e97dd789ff678b468ee6804
+SHA256: eabc6e0db5eac93d4a1a26bc17566bf5e0d2b593bc3e75ad230d7b4308f7768c
 Section: introspection
 Priority: optional
 Multi-Arch: same
@@ -288,18 +288,18 @@ Description: GObject introspection data for the GStreamer library
 
 Package: gstreamer1.0-alsa
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 252
 Depends: libasound2t64 (>= 1.0.27), libc6 (>= 2.17), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0)
 Suggests: alsa-utils (>= 0.9.0)
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-alsa_1.24.10-1-rk_arm64.deb
-Size: 115584
-MD5sum: 1c6bcccfb5a6a93154ee5c0dc7f4c02f
-SHA1: af93d502d8032fe2fa448aef846c19f68a6593ab
-SHA256: 5c5e4971775eb7d9a516b21e5876f5e1ef31189a24f85140fa0a9a02f9116f48
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-alsa_1.24.10-2-rk_arm64.deb
+Size: 115428
+MD5sum: e4014b0ea6303584636c68d638095d94
+SHA1: 2aeaa6e4d47c8315d88fe5b40be1f77a7a9e44bf
+SHA256: bbca3208e4863a9f4bd7351460f52e928d2a86a164beb3d348a4795c8d331f23
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -319,17 +319,17 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-alsa-dbgsym
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 137
-Depends: gstreamer1.0-alsa (= 1.24.10-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-alsa-dbgsym_1.24.10-1-rk_arm64.deb
-Size: 108876
-MD5sum: 5f5dd2089b657b32582974cbfa73ff82
-SHA1: b139003ef48bb53b42cff59764b162543f22b6cd
-SHA256: 3f98843d926dddeaee55f2f866640300542f1cfc0665ea07328669d039d4a9ae
+Depends: gstreamer1.0-alsa (= 1.24.10-2-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-alsa-dbgsym_1.24.10-2-rk_arm64.deb
+Size: 108872
+MD5sum: 7c733da678b8d6c4756bdfc3870f9327
+SHA1: 0414aea530f96df2776f43751cbb9986ac388b8a
+SHA256: 3b812442b6c3c725aaf09dadd25deaf271e905faf1043364fa7eedb5b44b0738
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -340,7 +340,7 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-gl
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 509
@@ -348,11 +348,11 @@ Depends: libc6 (>= 2.27), libglib2.0-0t64 (>= 2.80.0), libgraphene-1.0-0 (>= 1.5
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
 Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-gl_1.24.10-1-rk_arm64.deb
-Size: 180640
-MD5sum: ae1b2376c6365e307fea30565cdb16a3
-SHA1: 462a04307732e3c376bcb7aaeb1b0b4e9466fbc9
-SHA256: 6706c463ac3b7b6db70a4c93f7af4d17f54d563e8b3af0ba40b52ac80e5b7b0e
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-gl_1.24.10-2-rk_arm64.deb
+Size: 180648
+MD5sum: ca2a6cfcf8ace02733b25a06b53276ea
+SHA1: 4351e527f439107c8d1c613e50c60fa161d78a35
+SHA256: b5c4dc8e2c7b4d9144e9a7a28bbdf5be9f603d63942b8fbe362275f8fb25b37c
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -371,22 +371,22 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-gl-dbgsym
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 401
-Depends: gstreamer1.0-gl (= 1.24.10-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-gl-dbgsym_1.24.10-1-rk_arm64.deb
-Size: 329296
-MD5sum: 0d6b0997831ecc990e425d8edc1fdf93
-SHA1: 08aef161527ffc245f6e77c68074a5f738446fda
-SHA256: 306ec0a2d4df401f9017ae075985313dfcf689394f0ebc2d238353626da5eade
+Depends: gstreamer1.0-gl (= 1.24.10-2-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-gl-dbgsym_1.24.10-2-rk_arm64.deb
+Size: 329336
+MD5sum: 1b1d8ade254d407e5b0658214f2be50a
+SHA1: 4bd267e83f5c8277d149dbca79f3b46f18ff969e
+SHA256: fac7216543862e18abcc76f1132e4f49c63f3260b8feda0724ef8fd7ad97cc47
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for gstreamer1.0-gl
-Build-Ids: 6b23823900ca4937ad5c8a531ccd49398248b5ad
+Build-Ids: 1af794142e669ccec23ab4f5d053fa370264bd9e
 Gstreamer-Elements: glalpha, glcolorbalance, glcolorconvert, glcolorscale, gldeinterlace, gldifferencematte, gldownload, gleffects, gleffects_blur, gleffects_bulge, gleffects_fisheye, gleffects_glow, gleffects_heat, gleffects_identity, gleffects_laplacian, gleffects_lumaxpro, gleffects_mirror, gleffects_sepia, gleffects_sin, gleffects_sobel, gleffects_square, gleffects_squeeze, gleffects_stretch, gleffects_tunnel, gleffects_twirl, gleffects_xpro, gleffects_xray, glfilterapp, glfilterbin, glfiltercube, glfilterglass, glimagesink, glimagesinkelement, glmixerbin, glmosaic, gloverlay, gloverlaycompositor, glshader, glsinkbin, glsrcbin, glstereomix, glstereosplit, gltestsrc, gltransformation, glupload, glvideoflip, glvideomixer, glvideomixerelement, glviewconvert
 Gstreamer-Version: 1.24
 
@@ -498,19 +498,19 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-opencv
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 517
-Depends: gstreamer1.0-plugins-base, libgstreamer-opencv1.0-0 (= 1.24.10-2-rk), libgstreamer-plugins-bad1.0-0 (= 1.24.10-2-rk), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libopencv-calib3d406t64 (>= 4.6.0+dfsg), libopencv-contrib406t64 (>= 4.6.0+dfsg), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-features2d406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-objdetect406t64 (>= 4.6.0+dfsg), libopencv-video406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1)
+Depends: gstreamer1.0-plugins-base, libgstreamer-opencv1.0-0 (= 1.24.10-3-rk), libgstreamer-plugins-bad1.0-0 (= 1.24.10-3-rk), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libopencv-calib3d406t64 (>= 4.6.0+dfsg), libopencv-contrib406t64 (>= 4.6.0+dfsg), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-features2d406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-objdetect406t64 (>= 4.6.0+dfsg), libopencv-video406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 13.1)
 Recommends: opencv-data
 Conflicts: gstreamer1.0-plugins-bad (<< 1.17.2~)
 Replaces: gstreamer1.0-plugins-bad (<< 1.17.2~)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-opencv_1.24.10-2-rk_arm64.deb
-Size: 259964
-MD5sum: 243f09d0ef69165634e83e43bf0fc3f1
-SHA1: f03ef82c56912051ec870cf27078f13e1975a2f9
-SHA256: 6131272c5927a13439502ee61ee2a891e49cd187f4b39819749f7e2e13d26787
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-opencv_1.24.10-3-rk_arm64.deb
+Size: 259988
+MD5sum: f209f5f54e5a6c56cc82389cd8be5e0c
+SHA1: 228c66bc6c0d6fb0726db278d93aa532c44d29aa
+SHA256: bb230e6a8e4225c97c9147e9eec743ba8bc9f218e1ccc0b7a4f3721ddec77d0f
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -534,17 +534,17 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-opencv-dbgsym
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 1044
-Depends: gstreamer1.0-opencv (= 1.24.10-2-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-opencv-dbgsym_1.24.10-2-rk_arm64.deb
-Size: 1007364
-MD5sum: e8d1316da48e2ed19fecc728ec57bdbc
-SHA1: e5d512698c3a8138f1d187faf193a012bcbed1f0
-SHA256: bd067e692f32867caba0f8e795dbea8afa228cd27dbc9c10893974983ca84976
+Depends: gstreamer1.0-opencv (= 1.24.10-3-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-opencv-dbgsym_1.24.10-3-rk_arm64.deb
+Size: 1007372
+MD5sum: dbc8c4cb25df7c9c1460302c9f156d83
+SHA1: 991fb763385033498f5fc4e39ce2ced1c1ac1791
+SHA256: 01ba866a45a298c230a725649fda9c8af8ad8c1b472c757cb39fdfba8e0b1ba6
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -555,21 +555,21 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-plugins-bad
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 15365
-Depends: gstreamer1.0-plugins-base (>= 1.24.0), gstreamer1.0-plugins-good (>= 1.24.0), libgstreamer-plugins-bad1.0-0 (= 1.24.10-2-rk), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3t64-gnutls (>= 7.55.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdirectfb-1.7-7t64 (>= 1.7.7), libdrm2 (>= 2.4.98), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.1-0t64 (>= 1:2.1.0+debian), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.1-0t64 (>= 1:2.1.0+debian), libmplex2-2.1-0t64 (>= 1:2.1.0+debian), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.19.2 (>= 1.19.2), libopenal1 (>= 1:1.14), libopenexr-3-1-30 (>= 3.1.5), libopenh264-7 (>= 2.5.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.4), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc2 (>= 2.2.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.4.0), libwebpmux3 (>= 1.4.0), libwildmidi2 (>= 0.2.3), libx11-6, libx265-209 (>= 3.6), libxml2 (>= 2.9.0), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing3 (>= 2.2.1)
+Depends: gstreamer1.0-plugins-base (>= 1.24.0), gstreamer1.0-plugins-good (>= 1.24.0), libgstreamer-plugins-bad1.0-0 (= 1.24.10-3-rk), libaom3 (>= 3.2.0), libass9 (>= 1:0.13.6), libavtp0 (>= 0.2.0), libbs2b0 (>= 3.1.0+dfsg), libbz2-1.0, libc6 (>= 2.38), libcairo2 (>= 1.6.0), libchromaprint1 (>= 1.3.2), libcurl3t64-gnutls (>= 7.55.0), libdc1394-25 (>= 2.2.6), libdca0 (>= 0.0.5), libde265-0 (>= 0.9), libdirectfb-1.7-7t64 (>= 1.7.7), libdrm2 (>= 2.4.98), libdvdnav4 (>= 4.1.3), libdvdread8t64 (>= 4.1.3), libfaad2 (>= 2.7), libflite1 (>= 1.4-release-9~), libfluidsynth3 (>= 2.2.0), libfreeaptx0 (>= 0.1.1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgme0 (>= 0.6.0), libgsm1 (>= 1.0.18), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libgtk-3-0t64 (>= 3.15.0), libgudev-1.0-0 (>= 146), libimath-3-1-29t64 (>= 3.1.12), libjson-glib-1.0-0 (>= 1.5.2), liblc3-1 (>= 1.0.1), liblcms2-2 (>= 2.7), libldacbt-enc2 (>= 2.0.2), liblilv-0-0 (>= 0.22), liblrdf0 (>= 0.4.0-1.2), libltc11 (>= 1.2.0), libmjpegutils-2.1-0t64 (>= 1:2.1.0+debian), libmodplug1 (>= 1:0.8.8.5), libmpcdec6 (>= 1:0.1~r435), libmpeg2encpp-2.1-0t64 (>= 1:2.1.0+debian), libmplex2-2.1-0t64 (>= 1:2.1.0+debian), libneon27t64, libnettle8t64 (>= 3), libonnxruntime1.19.2 (>= 1.19.2), libopenal1 (>= 1:1.14), libopenexr-3-1-30 (>= 3.1.5), libopenh264-7 (>= 2.5.0+dfsg), libopenjp2-7 (>= 2.2.0), libopenmpt0t64 (>= 0.5.10), libopenni2-0 (>= 2.2.0.33+dfsg), libopus0 (>= 1.1), liborc-0.4-0t64 (>= 1:0.4.34), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libqrencode4 (>= 3.2.0), librsvg2-2 (>= 2.36.2), librtmp1 (>= 2.3), libsbc1 (>= 2.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libspandsp2t64 (>= 0.0.6~pre18), libsrt1.5-gnutls (>= 1.5.4), libsrtp2-1 (>= 2.0.0+20170516), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsvtav1enc2 (>= 2.2.1), libusb-1.0-0 (>= 2:1.0.8), libva2 (>= 2.2.0), libvo-aacenc0 (>= 0.1.3), libvo-amrwbenc0 (>= 0.1.3), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwebp7 (>= 1.4.0), libwebpmux3 (>= 1.4.0), libwildmidi2 (>= 0.2.3), libx11-6, libx265-209 (>= 3.6), libxml2 (>= 2.9.0), libzbar0t64 (>= 0.10), libzvbi0t64 (>= 0.2.35), libzxing3 (>= 2.2.1)
 Suggests: frei0r-plugins
 Conflicts: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1)
 Breaks: gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
 Replaces: gstreamer1.0-plugins-bad-faad (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-bad-videoparsers (<< 1.11.91-1ubuntu1), gstreamer1.0-plugins-base (<< 0.11.94), gstreamer1.0-plugins-good (<< 1.1.2)
 Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-videoparsers, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad_1.24.10-2-rk_arm64.deb
-Size: 2785844
-MD5sum: 7e991c7dbf3215aa513e36345238ddfe
-SHA1: 5b38cacdd9705ad597832a4ca4e3a2c22da5746e
-SHA256: 780cc97db036fc0e39b6fa137bbe56b6b1ce05ca67532b3619d30cda79c49200
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad_1.24.10-3-rk_arm64.deb
+Size: 2787540
+MD5sum: fcbdacabb85cc4df2bdbb013f0c68e0c
+SHA1: c1b37b652d15a4ca021c0e7ed04a3d97ea587260
+SHA256: e4f4c1320cdf90dcf27caa0495f7c863534bcc01f2038bd36bc0dc358f6eb3d6
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -586,8 +586,8 @@ Description: GStreamer plugins from the "bad" set
  to the rest. They might be close to being good quality, but they're missing
  something - be it a good code review, some documentation, a set of tests, a
  real live maintainer, or some actual wide use.
-Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/jpeg; image/png; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c; image/x-jpc; image/x-jpc-striped; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean){ true, false }; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-divx, divxversion=(int)[ 4, 5 ]; video/x-h263, variant=(string)itu; video/x-h264; video/x-h265; video/x-ivf; video/x-vmnc, version=(int)1; video/x-vp8; video/x-vp9
-Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aesdec, aesenc, aiffmux, aiffparse, alphacombine, asfmux, asfparse, assrender, atscmux, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autodeinterlace, autovideoconvert, autovideoflip, av12json, av1dec, av1enc, av1parse, avdtpsink, avdtpsrc, avtpaafdepay, avtpaafpay, avtpcrfcheck, avtpcrfsync, avtpcvfdepay, avtpcvfpay, avtprvfdepay, avtprvfpay, avtpsink, avtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, camerabin, cc708overlay, cccombiner, ccconverter, ccextractor, cea608mux, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, clockselect, codecalphademux, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsftpsink, curlsmtpsink, dashdemux, dashsink, dc1394src, debugqroverlay, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, dfbvideosink, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsubenc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakeaudiosink, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, gtkwaylandsink, h263parse, h2642json, h264parse, h264timestamper, h2652json, h265parse, h265timestamper, hlsdemux, hlssink, hlssink2, id3mux, insertbin, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jifmux, jp2kdecimator, jpeg2000parse, jpegparse, kaleidoscope, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lc3dec, lc3enc, lcms, ldacenc, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, msesrc, mssdemux, musepackdec, mxfdemux, mxfmux, neonhttpsrc, netsim, objectdetectionoverlay, onnxinference, openalsink, openalsrc, openaptxdec, openaptxenc, openexrdec, openh264dec, openh264enc, openjpegdec, openjpegenc, openmptdec, openni2src, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, qroverlay, removesilence, rfbsrc, rgb2bayer, ristrtpdeext, ristrtpext, ristrtxreceive, ristrtxsend, ristsink, ristsrc, rotate, roundrobin, rsndvdbin, rsvgdec, rsvgoverlay, rtmp2sink, rtmp2src, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, rtpsink, rtpsrc, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, ssdobjectdetector, stretch, svtav1enc, switchbin, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, transcodebin, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, unixfdsink, unixfdsrc, uritranscodebin, uvch264mjpgdemux, uvch264src, uvcsink, v4l2slav1dec, v4l2slh264dec, v4l2slmpeg2dec, v4l2slvp8alphadecodebin, v4l2slvp8dec, vc1parse, videoanalyse, videocodectestsink, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, viewfinderbin, vmncdec, voaacenc, voamrwbenc, vp82json, vp8alphadecodebin, vp9alphadecodebin, vp9parse, vulkancolorconvert, vulkandownload, vulkanh264dec, vulkanh265dec, vulkanimageidentity, vulkanoverlaycompositor, vulkanshaderspv, vulkansink, vulkanupload, vulkanviewconvert, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webvttenc, wildmididec, wrappercamerabinsrc, x265enc, y4mdec, zbar, zebrastripe, zxing
+Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/jpeg; image/png; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c; image/x-jpc; image/x-jpc-striped; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean){ true, false }; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-divx, divxversion=(int)[ 4, 5 ]; video/x-h263, variant=(string)itu; video/x-h264; video/x-h265; video/x-ivf; video/x-vmnc, version=(int)1; video/x-vp8, codec-alpha=(boolean)true; video/x-vp9
+Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aesdec, aesenc, aiffmux, aiffparse, alphacombine, asfmux, asfparse, assrender, atscmux, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autodeinterlace, autovideoconvert, autovideoflip, av12json, av1dec, av1enc, av1parse, avdtpsink, avdtpsrc, avtpaafdepay, avtpaafpay, avtpcrfcheck, avtpcrfsync, avtpcvfdepay, avtpcvfpay, avtprvfdepay, avtprvfpay, avtpsink, avtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, camerabin, cc708overlay, cccombiner, ccconverter, ccextractor, cea608mux, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, clockselect, codecalphademux, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsftpsink, curlsmtpsink, dashdemux, dashsink, dc1394src, debugqroverlay, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, dfbvideosink, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsubenc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakeaudiosink, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, gtkwaylandsink, h263parse, h2642json, h264parse, h264timestamper, h2652json, h265parse, h265timestamper, hlsdemux, hlssink, hlssink2, id3mux, insertbin, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jifmux, jp2kdecimator, jpeg2000parse, jpegparse, kaleidoscope, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lc3dec, lc3enc, lcms, ldacenc, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, msesrc, mssdemux, musepackdec, mxfdemux, mxfmux, neonhttpsrc, netsim, objectdetectionoverlay, onnxinference, openalsink, openalsrc, openaptxdec, openaptxenc, openexrdec, openh264dec, openh264enc, openjpegdec, openjpegenc, openmptdec, openni2src, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, qroverlay, removesilence, rfbsrc, rgb2bayer, ristrtpdeext, ristrtpext, ristrtxreceive, ristrtxsend, ristsink, ristsrc, rotate, roundrobin, rsndvdbin, rsvgdec, rsvgoverlay, rtmp2sink, rtmp2src, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, rtpsink, rtpsrc, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, ssdobjectdetector, stretch, svtav1enc, switchbin, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, transcodebin, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, unixfdsink, unixfdsrc, uritranscodebin, uvch264mjpgdemux, uvch264src, uvcsink, vc1parse, videoanalyse, videocodectestsink, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, viewfinderbin, vmncdec, voaacenc, voamrwbenc, vp82json, vp8alphadecodebin, vp9alphadecodebin, vp9parse, vulkancolorconvert, vulkandownload, vulkanh264dec, vulkanh265dec, vulkanimageidentity, vulkanoverlaycompositor, vulkanshaderspv, vulkansink, vulkanupload, vulkanviewconvert, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webvttenc, wildmididec, wrappercamerabinsrc, x265enc, y4mdec, zbar, zebrastripe, zxing
 Gstreamer-Encoders: application/mxf; application/x-bzip; application/x-dtls; application/x-gdp; application/x-rtp, media=(string){ audio, video, application }, encoding-name=(string)X-ASF-PF; application/x-sctp; application/x-subtitle; application/x-subtitle-vtt; audio/AMR-WB; audio/aptx; audio/aptx-hd; audio/mpeg, mpegversion=(int)4, stream-format=(string){ adts, raw }, base-profile=(string)lc; audio/x-adpcm, layout=(string)dvi; audio/x-aiff; audio/x-gsm; audio/x-lc3, frame-bytes=(int)[ 20, 400 ], frame-duration-us=(int){ 10000, 7500 }, framed=(boolean)true; audio/x-ldac, channel-mode=(string){ mono, dual, stereo }; audio/x-sbc, channel-mode=(string){ mono, dual, stereo, joint }, blocks=(int){ 4, 8, 12, 16 }, subbands=(int){ 4, 8 }, allocation-method=(string){ snr, loudness }, bitpool=(int)[ 2, 64 ]; audio/x-siren, dct-length=(int)320; image/jp2; image/webp; image/x-j2c, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc, num-components=(int)[ 1, 4 ], num-stripes=(int)[ 1, 2147483647 ], alignment=(string){ frame, stripe }, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc-striped, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }, num-stripes=(int)[ 2, 2147483647 ], stripe-height=(int)[ 1, 2147483647 ]; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, systemstream=(boolean)false, mpegversion=(int){ 1, 2 }; video/mpeg, systemstream=(boolean)true; video/mpegts, systemstream=(boolean)true, packetsize=(int){ 192, 188 }; video/x-av1, stream-format=(string)obu-stream, alignment=(string)tu; video/x-h264, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ constrained-baseline, baseline, main, constrained-high, high }; video/x-h265, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ main, main-still-picture, main-intra, main-444, main-444-intra, main-444-still-picture, main-10, main-10-intra, main-422-10, main-422-10-intra, main-444-10, main-444-10-intra, main-12, main-12-intra, main-422-12, main-422-12-intra, main-444-12, main-444-12-intra }; video/x-ms-asf, parsed=(boolean)true
 Gstreamer-Uri-Sinks: rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtp, srt
 Gstreamer-Uri-Sources: dvb, dvd, http, https, mse, rfb, rist, rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtp, sdp, srt, testbin
@@ -595,17 +595,17 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-plugins-bad-apps
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 321
-Depends: gstreamer1.0-plugins-bad (= 1.24.10-2-rk), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.68), libgstreamer-plugins-bad1.0-0 (>= 1.24.10), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0)
+Depends: gstreamer1.0-plugins-bad (= 1.24.10-3-rk), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.68), libgstreamer-plugins-bad1.0-0 (>= 1.24.10), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0)
 Conflicts: pitivi (<< 0.9999)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.24.10-2-rk_arm64.deb
-Size: 200860
-MD5sum: fed678b5a7b4e6c7d3aca5a71ddd616d
-SHA1: bb9c4c75e50ceb67d5f74f3d0daa714d597d5054
-SHA256: 88f08959fae7e503a830d358fa660a39e8d367a7f56ac111dfff7562b69561b8
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.24.10-3-rk_arm64.deb
+Size: 200900
+MD5sum: 29ef741a52b19fab236a555569872b37
+SHA1: a4beafef9ba2e3bdb6b1e0a4385e94f3d9c7eeee
+SHA256: edb30bfa468560a75822c5424f39554ff91f45b9f8596a9e0ef40387c127008a
 Section: utils
 Priority: optional
 Homepage: https://gstreamer.freedesktop.org
@@ -625,17 +625,17 @@ Description: GStreamer helper programs from the "bad" set
 
 Package: gstreamer1.0-plugins-bad-apps-dbgsym
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 62
-Depends: gstreamer1.0-plugins-bad-apps (= 1.24.10-2-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad-apps-dbgsym_1.24.10-2-rk_arm64.deb
-Size: 23392
-MD5sum: be021fbdb7cc888ca516aae361d40046
-SHA1: 0ef643b6e82392aa3c556883500317b8d93fc7de
-SHA256: a1f2e259b5933971f489fffd66a3650e38fb01e1f3bb911f8227512197846d36
+Depends: gstreamer1.0-plugins-bad-apps (= 1.24.10-3-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad-apps-dbgsym_1.24.10-3-rk_arm64.deb
+Size: 23400
+MD5sum: 7e0160b21cb0c7f359960da596939379
+SHA1: 00cb2aa5a7d5ab048b258f2b463fcc98139a6c90
+SHA256: b7815cdbd814022eb2b04f89b31082bc60280338d8137f90d7867de511e9efd8
 Section: debug
 Priority: optional
 Description: debug symbols for gstreamer1.0-plugins-bad-apps
@@ -643,24 +643,24 @@ Build-Ids: f747ac0644ec750f21b05a36831526703cf91ed5
 
 Package: gstreamer1.0-plugins-bad-dbgsym
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 12749
-Depends: gstreamer1.0-plugins-bad (= 1.24.10-2-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad-dbgsym_1.24.10-2-rk_arm64.deb
-Size: 10458524
-MD5sum: 1a6921e6ed88ad69a30f3acb901e08fe
-SHA1: c833e06d25ad13fffe1cb0e23cb827806802ca27
-SHA256: 2d44f31203bf50474b4ef6990d83f11d96ede6f6e68cef7c7d4a1078a57ad429
+Installed-Size: 12750
+Depends: gstreamer1.0-plugins-bad (= 1.24.10-3-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-bad-dbgsym_1.24.10-3-rk_arm64.deb
+Size: 10459060
+MD5sum: 030eba46c640f1703867d793267ed7aa
+SHA1: e22ac03fc5cc9d226be5ba14276ecfdffc633876
+SHA256: 274619cc6a77a3e53d579af0423bd2201fd096cadabeb93893154c6bed64875b
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for gstreamer1.0-plugins-bad
-Build-Ids: 000c359551eafbce10816c29ab10aee0c25133aa 010b380c78c01c62d8abb4c12766e4e10ffc0fd7 019f26815f63737c84b23fad8bcc1499b1f5299b 04983e0643d67ede37f242f8df40c03a939b073b 05af47aabbad0e743fbb5ab2f0f1bddd97098f96 074e2cc91d4021bb58b7c03f07bed2202be8ec37 0b7d8597146a6aa867b853b1cae173afcafea41e 0e080aeddab2a35110551d64b7e657c0796d7824 0ea503e99bb1547bd9566f1fba2c13045c48f362 104d4ef6c12118175fa57d8bfbb7ec56e08f667e 105b90e291491fa7bd09c4d966a1b62e3ca8ad0d 154b63a09beedb119a48189f647036cb7b97bac0 174ab99add4412a3857c5cd2085ad9b6e6f7fd74 19dc09375103a088dfae0ae3d602fbb6e1ff704e 1a93e03742e72d45a1e5f3cb124c6aa51b0b742e 1c716d4c879c0b0eb83db15c0c0537b2cccaf073 1de6ae265c03787ea5557b7bb137a05b5693fa16 202ee4334fa5db067af4d18a399093c12f01b124 214f62d65bd0cae65789bb858c63531ce34ac5ee 21c2256d8127c624840f292c85395653d885b8f0 232f2249e31a8789fbeafa01f7d801831c09ce73 2344b39d5e1384e134355b47b923c3669be7df77 236135cbb07be554782e4d666b3871396435fdd0 2378bacf3fee8594abf7ec9ccc535b1dfa52bfab 2398ac63b8a8373e931f180580c33e80ee48f471 25fc3ce060697e84d40ad31506183334acb65798 28d94ce83d827650922701a616e4780239209191 28ea330ef300aa2d2ebe01cd92085ebf7c187793 2a6081735fb4463f26aadfb7df2cfa783321b544 2b30af1d4c50e6640693f4411ecbe0048e8aaac4 2f3eb6c8a4532ffb468520474f1cd3c6ce8f84d5 309864a0f0b2223558fc080b40037c51f3b8555f 325568f03a357235e31a93ba6b5e3ab577324130 32ce35062f06e6dde070cd17b6193228c32fc9ad 344a914869ea866ec6cb3256491fd2d10acd0277 34f7d6b67ff07f7360f7f7433732d77cde1aedad 35cad4ee397c5a8b8ae8191842437c39ce9523e4 390a86862bf2618bbaf7fcaf88adcc1b5f979a89 3987530722d5b5d67fa1aeaba273f7ddb478d980 399c4311bef42e48dcc075da39a94c955183ca73 39bf4425696e15a6a5bc958eafadf9834d41ac2f 43cb2505b4bdf9dc06319e7a88f616284439cea2 4649817bd38660df88ef30b3fb5b05c60a34997c 46cc8992e7cf8a0a3d04520c7b3587a321184b56 48a7da511923aa8689915d44acf42dc5fbd4ff1f 49ce5dd225ee317d64987ffed1dad2b29e861e73 4a4100ca62b3aa2a55348cadebab891965fe9855 4e5a1c6aa4318493b183c4cd2d17f7358be6bcf3 4e8aaf965b8e16e14726d2c8c55fff8c923bf9a7 5215eddba6645d01f7676e2a78f9482cf13ab4fd 543a9fb848f8177594d39693589e87c868e8a62d 56c585c339bcd8596a6fb9fc6377bf7f708ec8dc 596e8af167c7e5b46f3f8fb03832baefdf576325 5c8e2cdfabf6a7fbcd8ae90e06b5a763ba2e851c 6017bc04379bf37fb8dc4d32aaaa43a2574fe4f7 61de9b595888290c7ad477f4579a28bfbff8da23 679e61b8208168f80df2b1b2805eda0e70a5045d 6cf185315dad8bcca24bf84ab7338a9b49b37950 6da57c6273f0be0c8284f51dcd165ea608828810 6ecca3af1882b9faff30a14901ee41ff1a8fbb3e 6fc195732b2276c0a4ab10e5abecf53eed266e2b 6ff58c743bcffdffe3642261a787a9e48d1b5ca6 7131938cd9d7ee3b5edf4f7e1a21ec6298ac064f 721161f73d6484def1f1dce38bf19be574e6f4a4 7226b4e2b5bb06ea53e557f6bdaeed646a25f9ab 729bdc4eb8dbf2caeb4a4d7dac86f6a958f3c4ca 7947e53a26813f3b410bf68be57b7f1f740e691c 7a0392ee4899fa6aa00302426657948e19963b08 7bffbad2e2a1ff4dc1e617cb77fe4aedc73cf34f 7c968974a4265b1eb4b5919437481c8a6efb10ff 7f4d8c0e7da5f2321e24ee7f5fd3430edbd3b097 802a2f5a190beecd020702b3ad24f093949cd11a 81d90f3804ee7537e778a49f174c307fbd8769ce 851681f39adf76547f17a40e7428d13ac177e759 85c26635b126591e037353d5d51976ae3aba929a 87eab153ec40e1d30b3bd82c41f9aed8b9b748d4 8ace4ad4ffc72f0cd17f7795e4735ae2fa2c051f 9065193d193a1ac056fe5cde970f0b8811ddbd92 9315036e1ab072c772058422adfcb2da6cd8a67a 94d5ef105c820099ca060a25d2589e8e8b9fbf45 953d09317fba48ee761d345eaaa07c7e4390b26f 9708835f12bae580cb7a276cfc9dc3e24adc69f8 978dc490db8adb9b12ed928b36cac8a865e1d476 98987affdb119d9b9358762c0b8195ea1d482b35 9a4fa675ec75481a7e47ee95ee444d36be9d2590 9b0ecb2667faa2609ad30dccb61a3e01a09c195d 9b40205618972f1036c82dd823539004e4d2d6f7 9c9fda9a0d0992985f06dceea9155250b65a834d 9e1af5822254da7d152ed7105d8c6685a9589509 a17888b2b6577010ee2656f71449277ee7096db3 a35a7ec8071364d3e82728121cf2008aeb7a8ae4 aa2bea68bcc9e2491d452f3642e48fdd9b194a11 aacc855d6e23e3d602dd7ff8b2fd4a3bea319c6a ad621843b9e2a15a6a6bab0eb46224d0767f3596 adb0ec5b8033c04f35c32f0ed029ffb02cb0c7ca ae2d222ca039ad4517aec3000bb2f05a2d2dafbc b28d0939ecff160c26c7d6a5adc4be730e277d7a b2a59eb0d671873fedd632b7b77d7833a8c40147 b39859ae9026334a698888c815503a7710563840 b3cffdefe9d37039df31952f622ab48bc530229b b487fe60d527160c0a1e8faeb05e5788579e67d1 b565e7ce8a44c49f8c1c4e0f9ae7b0b6905f4b78 b69b8885e34962d12ad24198b5ad2d15b9a28c35 b86d6b139a57d20c51e24c63c528b2b05af4e5ca b90c09f31116dcd5eea5175f66141d0554205c37 b94761c262de129dc969f7d5bc8f17cc6ebd5406 bc13241561ebe1b0a74404830415a004dc6950f6 bcb0aac8c68ac6bf47963877c7f1b818e1ca46ff bdfe42314a3ca3c0c57076ef666555dbbf024ee8 be04cf6a94a33fae546593f4d0f88aac0c636bdc c21397cb7b2e7e36d665548810a56fc605809001 c8c822cee165a763eb109d30e19528dddd296f9b c90bfb7e9a1fa8d4f96701c3f3a8c9371f726520 c9810612dde5b996df853de546ebb8c0b06d1ae6 c9d187d74c124f513957c04ed9e21e51f86b7168 ca9d12499e8e2e0cb787d6b8b9fd7a5994b79453 cb975920ec11b40ed03fd327a39ccd37a364159d cbfcc9f3e07a2b852198eb4c369fa8831fefc41c ccf672e9488e095d38290ff7fe3bff7b5f5873a6 cd6112742165b33738974ed04c6a4c786adad82f d02e247df77e864fe132e6dd8eb598267812c121 d2454b0896ade7a14871c4e2fa3bda02d70ee781 d570ef9af40f153a18c1e301c90217657ab26f66 d72402a960c092e771c1c7c596560281a64f32ac d8808230dcdb37870fc329df038a61d6a1d89229 db54b70a619d8d987d724c4b176512ddb3d4b1a2 db72d8e6f20ca9acc86a1786ea3a0ccddd7bb1ac dca667a2775938d9224149368798efad7463772c dee3b7a9d52cf354ad70203308b690cae28e4df2 dfda380418dbcc90bcf3a374af0c7d70eafaf593 e19ff61622a5633d0485ffa244c999973947327c e2af8a63e72a01dad2615e364d4322efb8c125dd e2c1f93376d97f070ea8efd5db1f425ffc707387 e6642e8b041ecb4103c6887fc1191a98ff873cd2 e7616c0395a3a56e01d873efd0722cd231cd11fb e8a24f0698c4843d1d5609ca61b281fcff1bb413 eb22e19a234dfc60f360ea86ad81e42873a71d62 eb91bdec868fb550ca914bedd7855c0c78605589 ec2d7f1a5e7eee6c57a6c902f9f074b7d507afdb ee95ba1c8e04eb95284ff6a2c4222645615a93cc efe02c7d0f068501f364205bb552f704a6554593 f1165038e266ef054b7b84b0b04b6952c62b2c66 f221cf3fb7012e20733876ab744cb643b090b050 f4724bc024d547638a0b434e5559eb5a4e7aec72 f5f22a49fe0246e55161e6964e43629a1d01621a f6bade76da388ae2bbec640a30418a97ab4ae9e6 f75b834779a537397f2e51a4838c09d32d779e72 f7e3ff3e0ab06c1384c51b49024fec42bd5adf95 fc05ea88d36188bbb1a12692de5fc63f39a19ee8 fceb46fd160ade6009126d9e6b4d7f4500604d0a
-Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/jpeg; image/png; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c; image/x-jpc; image/x-jpc-striped; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean){ true, false }; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-divx, divxversion=(int)[ 4, 5 ]; video/x-h263, variant=(string)itu; video/x-h264; video/x-h265; video/x-ivf; video/x-vmnc, version=(int)1; video/x-vp8; video/x-vp9
-Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aesdec, aesenc, aiffmux, aiffparse, alphacombine, asfmux, asfparse, assrender, atscmux, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autodeinterlace, autovideoconvert, autovideoflip, av12json, av1dec, av1enc, av1parse, avdtpsink, avdtpsrc, avtpaafdepay, avtpaafpay, avtpcrfcheck, avtpcrfsync, avtpcvfdepay, avtpcvfpay, avtprvfdepay, avtprvfpay, avtpsink, avtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, camerabin, cc708overlay, cccombiner, ccconverter, ccextractor, cea608mux, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, clockselect, codecalphademux, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsftpsink, curlsmtpsink, dashdemux, dashsink, dc1394src, debugqroverlay, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, dfbvideosink, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsubenc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakeaudiosink, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, gtkwaylandsink, h263parse, h2642json, h264parse, h264timestamper, h2652json, h265parse, h265timestamper, hlsdemux, hlssink, hlssink2, id3mux, insertbin, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jifmux, jp2kdecimator, jpeg2000parse, jpegparse, kaleidoscope, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lc3dec, lc3enc, lcms, ldacenc, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, msesrc, mssdemux, musepackdec, mxfdemux, mxfmux, neonhttpsrc, netsim, objectdetectionoverlay, onnxinference, openalsink, openalsrc, openaptxdec, openaptxenc, openexrdec, openh264dec, openh264enc, openjpegdec, openjpegenc, openmptdec, openni2src, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, qroverlay, removesilence, rfbsrc, rgb2bayer, ristrtpdeext, ristrtpext, ristrtxreceive, ristrtxsend, ristsink, ristsrc, rotate, roundrobin, rsndvdbin, rsvgdec, rsvgoverlay, rtmp2sink, rtmp2src, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, rtpsink, rtpsrc, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, ssdobjectdetector, stretch, svtav1enc, switchbin, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, transcodebin, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, unixfdsink, unixfdsrc, uritranscodebin, uvch264mjpgdemux, uvch264src, uvcsink, v4l2slav1dec, v4l2slh264dec, v4l2slmpeg2dec, v4l2slvp8alphadecodebin, v4l2slvp8dec, vc1parse, videoanalyse, videocodectestsink, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, viewfinderbin, vmncdec, voaacenc, voamrwbenc, vp82json, vp8alphadecodebin, vp9alphadecodebin, vp9parse, vulkancolorconvert, vulkandownload, vulkanh264dec, vulkanh265dec, vulkanimageidentity, vulkanoverlaycompositor, vulkanshaderspv, vulkansink, vulkanupload, vulkanviewconvert, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webvttenc, wildmididec, wrappercamerabinsrc, x265enc, y4mdec, zbar, zebrastripe, zxing
+Build-Ids: 019f26815f63737c84b23fad8bcc1499b1f5299b 04983e0643d67ede37f242f8df40c03a939b073b 05af47aabbad0e743fbb5ab2f0f1bddd97098f96 074e2cc91d4021bb58b7c03f07bed2202be8ec37 0b7d8597146a6aa867b853b1cae173afcafea41e 0e080aeddab2a35110551d64b7e657c0796d7824 0ea503e99bb1547bd9566f1fba2c13045c48f362 105b90e291491fa7bd09c4d966a1b62e3ca8ad0d 154b63a09beedb119a48189f647036cb7b97bac0 174ab99add4412a3857c5cd2085ad9b6e6f7fd74 19dc09375103a088dfae0ae3d602fbb6e1ff704e 1a93e03742e72d45a1e5f3cb124c6aa51b0b742e 1de6ae265c03787ea5557b7bb137a05b5693fa16 202ee4334fa5db067af4d18a399093c12f01b124 214f62d65bd0cae65789bb858c63531ce34ac5ee 21c2256d8127c624840f292c85395653d885b8f0 232f2249e31a8789fbeafa01f7d801831c09ce73 2344b39d5e1384e134355b47b923c3669be7df77 236135cbb07be554782e4d666b3871396435fdd0 2398ac63b8a8373e931f180580c33e80ee48f471 23c2450e2b37f662cd63bdcea3ef3a70251b845d 25fc3ce060697e84d40ad31506183334acb65798 28d94ce83d827650922701a616e4780239209191 28ea330ef300aa2d2ebe01cd92085ebf7c187793 2a6081735fb4463f26aadfb7df2cfa783321b544 2b30af1d4c50e6640693f4411ecbe0048e8aaac4 2bc2fa1f7709a497c4ead40cd3fce012cbdd9468 2f3eb6c8a4532ffb468520474f1cd3c6ce8f84d5 325568f03a357235e31a93ba6b5e3ab577324130 32ce35062f06e6dde070cd17b6193228c32fc9ad 344a914869ea866ec6cb3256491fd2d10acd0277 34f7d6b67ff07f7360f7f7433732d77cde1aedad 35cad4ee397c5a8b8ae8191842437c39ce9523e4 390a86862bf2618bbaf7fcaf88adcc1b5f979a89 3987530722d5b5d67fa1aeaba273f7ddb478d980 399c4311bef42e48dcc075da39a94c955183ca73 39bf4425696e15a6a5bc958eafadf9834d41ac2f 3c3d31292dd5a1e5ba186b7ffb50d466027f6718 3fd7a0e4c3a29702167a8da0b8ad8a548c27f39b 4649817bd38660df88ef30b3fb5b05c60a34997c 46cc8992e7cf8a0a3d04520c7b3587a321184b56 48a7da511923aa8689915d44acf42dc5fbd4ff1f 49ce5dd225ee317d64987ffed1dad2b29e861e73 4a4100ca62b3aa2a55348cadebab891965fe9855 4e5a1c6aa4318493b183c4cd2d17f7358be6bcf3 4e8aaf965b8e16e14726d2c8c55fff8c923bf9a7 5215eddba6645d01f7676e2a78f9482cf13ab4fd 543a9fb848f8177594d39693589e87c868e8a62d 56c585c339bcd8596a6fb9fc6377bf7f708ec8dc 596e8af167c7e5b46f3f8fb03832baefdf576325 5c8e2cdfabf6a7fbcd8ae90e06b5a763ba2e851c 6017bc04379bf37fb8dc4d32aaaa43a2574fe4f7 61de9b595888290c7ad477f4579a28bfbff8da23 679e61b8208168f80df2b1b2805eda0e70a5045d 6cf185315dad8bcca24bf84ab7338a9b49b37950 6da57c6273f0be0c8284f51dcd165ea608828810 6ecca3af1882b9faff30a14901ee41ff1a8fbb3e 6fc195732b2276c0a4ab10e5abecf53eed266e2b 7131938cd9d7ee3b5edf4f7e1a21ec6298ac064f 721161f73d6484def1f1dce38bf19be574e6f4a4 7226b4e2b5bb06ea53e557f6bdaeed646a25f9ab 729bdc4eb8dbf2caeb4a4d7dac86f6a958f3c4ca 7947e53a26813f3b410bf68be57b7f1f740e691c 7a0392ee4899fa6aa00302426657948e19963b08 7bffbad2e2a1ff4dc1e617cb77fe4aedc73cf34f 7c968974a4265b1eb4b5919437481c8a6efb10ff 7f4d8c0e7da5f2321e24ee7f5fd3430edbd3b097 802a2f5a190beecd020702b3ad24f093949cd11a 81d90f3804ee7537e778a49f174c307fbd8769ce 851681f39adf76547f17a40e7428d13ac177e759 85c26635b126591e037353d5d51976ae3aba929a 87eab153ec40e1d30b3bd82c41f9aed8b9b748d4 8ace4ad4ffc72f0cd17f7795e4735ae2fa2c051f 9065193d193a1ac056fe5cde970f0b8811ddbd92 9315036e1ab072c772058422adfcb2da6cd8a67a 94d5ef105c820099ca060a25d2589e8e8b9fbf45 953d09317fba48ee761d345eaaa07c7e4390b26f 9708835f12bae580cb7a276cfc9dc3e24adc69f8 978dc490db8adb9b12ed928b36cac8a865e1d476 98987affdb119d9b9358762c0b8195ea1d482b35 9902a890caa81d06d7fa712651b2d69f64390218 9a4fa675ec75481a7e47ee95ee444d36be9d2590 9b0ecb2667faa2609ad30dccb61a3e01a09c195d 9b40205618972f1036c82dd823539004e4d2d6f7 9c9fda9a0d0992985f06dceea9155250b65a834d 9e1af5822254da7d152ed7105d8c6685a9589509 a17888b2b6577010ee2656f71449277ee7096db3 a35a7ec8071364d3e82728121cf2008aeb7a8ae4 aa2bea68bcc9e2491d452f3642e48fdd9b194a11 aacc855d6e23e3d602dd7ff8b2fd4a3bea319c6a ad621843b9e2a15a6a6bab0eb46224d0767f3596 adb0ec5b8033c04f35c32f0ed029ffb02cb0c7ca ae2d222ca039ad4517aec3000bb2f05a2d2dafbc b28d0939ecff160c26c7d6a5adc4be730e277d7a b2a59eb0d671873fedd632b7b77d7833a8c40147 b39859ae9026334a698888c815503a7710563840 b3cffdefe9d37039df31952f622ab48bc530229b b487fe60d527160c0a1e8faeb05e5788579e67d1 b565e7ce8a44c49f8c1c4e0f9ae7b0b6905f4b78 b69b8885e34962d12ad24198b5ad2d15b9a28c35 b6fd705d0d678e81048ea05d3145c06a238c21a0 b86d6b139a57d20c51e24c63c528b2b05af4e5ca b90c09f31116dcd5eea5175f66141d0554205c37 b94761c262de129dc969f7d5bc8f17cc6ebd5406 bc13241561ebe1b0a74404830415a004dc6950f6 bcb0aac8c68ac6bf47963877c7f1b818e1ca46ff bdfe42314a3ca3c0c57076ef666555dbbf024ee8 be04cf6a94a33fae546593f4d0f88aac0c636bdc c21397cb7b2e7e36d665548810a56fc605809001 c8c822cee165a763eb109d30e19528dddd296f9b c90bfb7e9a1fa8d4f96701c3f3a8c9371f726520 c9810612dde5b996df853de546ebb8c0b06d1ae6 c9d187d74c124f513957c04ed9e21e51f86b7168 ca9d12499e8e2e0cb787d6b8b9fd7a5994b79453 cb975920ec11b40ed03fd327a39ccd37a364159d cbfcc9f3e07a2b852198eb4c369fa8831fefc41c ccf672e9488e095d38290ff7fe3bff7b5f5873a6 cd6112742165b33738974ed04c6a4c786adad82f d02e247df77e864fe132e6dd8eb598267812c121 d2454b0896ade7a14871c4e2fa3bda02d70ee781 d570ef9af40f153a18c1e301c90217657ab26f66 d72402a960c092e771c1c7c596560281a64f32ac d8808230dcdb37870fc329df038a61d6a1d89229 db54b70a619d8d987d724c4b176512ddb3d4b1a2 dbfd9e0bcfd2c8f850a17bb72d00f041dcbf4a33 dc5f48a0b0a17ab9e8acfc8accc90fbe94fb8151 dca667a2775938d9224149368798efad7463772c ddc6b69d43c07703a3c6d1a0c3442c5c27b22683 dee3b7a9d52cf354ad70203308b690cae28e4df2 dfda380418dbcc90bcf3a374af0c7d70eafaf593 e2af8a63e72a01dad2615e364d4322efb8c125dd e6642e8b041ecb4103c6887fc1191a98ff873cd2 e7616c0395a3a56e01d873efd0722cd231cd11fb e8a24f0698c4843d1d5609ca61b281fcff1bb413 eb22e19a234dfc60f360ea86ad81e42873a71d62 eb91bdec868fb550ca914bedd7855c0c78605589 ec2d7f1a5e7eee6c57a6c902f9f074b7d507afdb ec82309021ba690c88d5ff66b7607779b1bb9861 ee95ba1c8e04eb95284ff6a2c4222645615a93cc efe02c7d0f068501f364205bb552f704a6554593 f1165038e266ef054b7b84b0b04b6952c62b2c66 f221cf3fb7012e20733876ab744cb643b090b050 f3b6e666162356d4a7825da4e17a7a2102509ab9 f4724bc024d547638a0b434e5559eb5a4e7aec72 f5f22a49fe0246e55161e6964e43629a1d01621a f6bade76da388ae2bbec640a30418a97ab4ae9e6 f75b834779a537397f2e51a4838c09d32d779e72 f7e3ff3e0ab06c1384c51b49024fec42bd5adf95 fc05ea88d36188bbb1a12692de5fc63f39a19ee8 fceb46fd160ade6009126d9e6b4d7f4500604d0a
+Gstreamer-Decoders: application/dash+xml; application/mxf; application/vnd.ms-sstr+xml; application/x-hls; application/x-yuv4mpeg, y4mversion=(int)2; audio/midi; audio/mpeg, mpegversion=(int)4, stream-format=(string){ raw, adts }; audio/mpeg, mpegversion=(int)2; audio/ms-gsm; audio/riff-midi; audio/x-adpcm, layout=(string){ microsoft, dvi }; audio/x-aiff; audio/x-ay; audio/x-dts; audio/x-gbs; audio/x-gsm; audio/x-gym; audio/x-hes; audio/x-ircam; audio/x-it; audio/x-kss; audio/x-midi-event; audio/x-mod; audio/x-musepack, streamversion=(int){ 7, 8 }; audio/x-nist; audio/x-nsf; audio/x-paris; audio/x-private1-dts; audio/x-rf64; audio/x-s3m; audio/x-sap; audio/x-sbc, parsed=(boolean)true; audio/x-sds; audio/x-siren, dct-length=(int)320; audio/x-spc; audio/x-stm; audio/x-svx; audio/x-vgm; audio/x-voc; audio/x-w64; audio/x-xi; audio/x-xm; image/jp2; image/jpeg; image/png; image/svg; image/svg+xml; image/webp; image/x-exr; image/x-j2c; image/x-jpc; image/x-jpc-striped; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, mpegversion=(int){ 1, 2 }, systemstream=(boolean){ true, false }; video/mpeg, mpegversion=(int)4, systemstream=(boolean)false; video/mpegts, systemstream=(boolean)true; video/x-av1; video/x-cdxa; video/x-divx, divxversion=(int)[ 4, 5 ]; video/x-h263, variant=(string)itu; video/x-h264; video/x-h265; video/x-ivf; video/x-vmnc, version=(int)1; video/x-vp8, codec-alpha=(boolean)true; video/x-vp9
+Gstreamer-Elements: a2dpsink, accurip, adpcmdec, adpcmenc, aesdec, aesenc, aiffmux, aiffparse, alphacombine, asfmux, asfparse, assrender, atscmux, audiobuffersplit, audiochannelmix, audiolatency, audiomixmatrix, audioparse, audiosegmentclip, autoconvert, autodeinterlace, autovideoconvert, autovideoflip, av12json, av1dec, av1enc, av1parse, avdtpsink, avdtpsrc, avtpaafdepay, avtpaafpay, avtpcrfcheck, avtpcrfsync, avtpcvfdepay, avtpcvfpay, avtprvfdepay, avtprvfpay, avtpsink, avtpsrc, avwait, bayer2rgb, bpmdetect, bs2b, bulge, burn, bz2dec, bz2enc, camerabin, cc708overlay, cccombiner, ccconverter, ccextractor, cea608mux, checksumsink, chopmydata, chromahold, chromaprint, chromium, circle, clockselect, codecalphademux, coloreffects, combdetect, compare, curlfilesink, curlftpsink, curlhttpsink, curlhttpsrc, curlsftpsink, curlsmtpsink, dashdemux, dashsink, dc1394src, debugqroverlay, debugspy, decklinkaudiosink, decklinkaudiosrc, decklinkvideosink, decklinkvideosrc, dfbvideosink, diffuse, dilate, diracparse, dodge, dtlsdec, dtlsenc, dtlssrtpdec, dtlssrtpdemux, dtlssrtpenc, dtmfdetect, dtsdec, dvbbasebin, dvbsrc, dvbsubenc, dvbsuboverlay, dvdspu, errorignore, exclusion, faad, faceoverlay, fakeaudiosink, fakevideosink, fbdevsink, festival, fieldanalysis, fisheye, flitetestsrc, fluiddec, fpsdisplaysink, freeverb, gaussianblur, gdpdepay, gdppay, gmedec, gsmdec, gsmenc, gtkwaylandsink, h263parse, h2642json, h264parse, h264timestamper, h2652json, h265parse, h265timestamper, hlsdemux, hlssink, hlssink2, id3mux, insertbin, interaudiosink, interaudiosrc, interlace, intersubsink, intersubsrc, intervideosink, intervideosrc, ipcpipelinesink, ipcpipelinesrc, ipcslavepipeline, irtspparse, ivfparse, ivtc, jifmux, jp2kdecimator, jpeg2000parse, jpegparse, kaleidoscope, kmssink, ladspa-amp-so-amp-mono, ladspa-amp-so-amp-stereo, ladspa-delay-so-delay-5s, ladspa-filter-so-hpf, ladspa-filter-so-lpf, ladspa-sine-so-sine-faaa, ladspa-sine-so-sine-faac, ladspa-sine-so-sine-fcaa, ladspasrc-noise-so-noise-white, ladspasrc-sine-so-sine-fcac, lc3dec, lc3enc, lcms, ldacenc, libde265dec, line21decoder, line21encoder, marble, midiparse, mirror, modplug, mpeg2enc, mpeg4videoparse, mpegpsdemux, mpegpsmux, mpegtsmux, mpegvideoparse, mplex, msesrc, mssdemux, musepackdec, mxfdemux, mxfmux, neonhttpsrc, netsim, objectdetectionoverlay, onnxinference, openalsink, openalsrc, openaptxdec, openaptxenc, openexrdec, openh264dec, openh264enc, openjpegdec, openjpegenc, openmptdec, openni2src, opusparse, pcapparse, perspective, pinch, pitch, pngparse, pnmdec, pnmenc, proxysink, proxysrc, qroverlay, removesilence, rfbsrc, rgb2bayer, ristrtpdeext, ristrtpext, ristrtxreceive, ristrtxsend, ristsink, ristsrc, rotate, roundrobin, rsndvdbin, rsvgdec, rsvgoverlay, rtmp2sink, rtmp2src, rtmpsink, rtmpsrc, rtpasfpay, rtponvifparse, rtponviftimestamp, rtpsink, rtpsrc, sbcdec, sbcenc, scenechange, sctpdec, sctpenc, sdpdemux, sdpsrc, sfdec, shmsink, shmsrc, simplevideomark, simplevideomarkdetect, sirendec, sirenenc, smooth, solarize, spacescope, spanplc, spectrascope, speed, sphere, square, srtclientsink, srtclientsrc, srtenc, srtpdec, srtpenc, srtserversink, srtserversrc, srtsink, srtsrc, ssdobjectdetector, stretch, svtav1enc, switchbin, synaescope, teletextdec, testsrcbin, timecodestamper, tonegeneratesrc, transcodebin, tsdemux, tsparse, ttmlparse, ttmlrender, tunnel, twirl, unixfdsink, unixfdsrc, uritranscodebin, uvch264mjpgdemux, uvch264src, uvcsink, vc1parse, videoanalyse, videocodectestsink, videodiff, videoframe-audiolevel, videoparse, videosegmentclip, viewfinderbin, vmncdec, voaacenc, voamrwbenc, vp82json, vp8alphadecodebin, vp9alphadecodebin, vp9parse, vulkancolorconvert, vulkandownload, vulkanh264dec, vulkanh265dec, vulkanimageidentity, vulkanoverlaycompositor, vulkanshaderspv, vulkansink, vulkanupload, vulkanviewconvert, watchdog, waterripple, wavescope, waylandsink, webpdec, webpenc, webrtcbin, webvttenc, wildmididec, wrappercamerabinsrc, x265enc, y4mdec, zbar, zebrastripe, zxing
 Gstreamer-Encoders: application/mxf; application/x-bzip; application/x-dtls; application/x-gdp; application/x-rtp, media=(string){ audio, video, application }, encoding-name=(string)X-ASF-PF; application/x-sctp; application/x-subtitle; application/x-subtitle-vtt; audio/AMR-WB; audio/aptx; audio/aptx-hd; audio/mpeg, mpegversion=(int)4, stream-format=(string){ adts, raw }, base-profile=(string)lc; audio/x-adpcm, layout=(string)dvi; audio/x-aiff; audio/x-gsm; audio/x-lc3, frame-bytes=(int)[ 20, 400 ], frame-duration-us=(int){ 10000, 7500 }, framed=(boolean)true; audio/x-ldac, channel-mode=(string){ mono, dual, stereo }; audio/x-sbc, channel-mode=(string){ mono, dual, stereo, joint }, blocks=(int){ 4, 8, 12, 16 }, subbands=(int){ 4, 8 }, allocation-method=(string){ snr, loudness }, bitpool=(int)[ 2, 64 ]; audio/x-siren, dct-length=(int)320; image/jp2; image/webp; image/x-j2c, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc, num-components=(int)[ 1, 4 ], num-stripes=(int)[ 1, 2147483647 ], alignment=(string){ frame, stripe }, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }; image/x-jpc-striped, num-components=(int)[ 1, 4 ], sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, YCbCr-4:1:0, GRAYSCALE, YCbCrA-4:4:4:4 }, colorspace=(string){ sRGB, sYUV, GRAY }, num-stripes=(int)[ 2, 2147483647 ], stripe-height=(int)[ 1, 2147483647 ]; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; video/mpeg, systemstream=(boolean)false, mpegversion=(int){ 1, 2 }; video/mpeg, systemstream=(boolean)true; video/mpegts, systemstream=(boolean)true, packetsize=(int){ 192, 188 }; video/x-av1, stream-format=(string)obu-stream, alignment=(string)tu; video/x-h264, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ constrained-baseline, baseline, main, constrained-high, high }; video/x-h265, stream-format=(string)byte-stream, alignment=(string)au, profile=(string){ main, main-still-picture, main-intra, main-444, main-444-intra, main-444-still-picture, main-10, main-10-intra, main-422-10, main-422-10-intra, main-444-10, main-444-10-intra, main-12, main-12-intra, main-422-12, main-422-12-intra, main-444-12, main-444-12-intra }; video/x-ms-asf, parsed=(boolean)true
 Gstreamer-Uri-Sinks: rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtp, srt
 Gstreamer-Uri-Sources: dvb, dvd, http, https, mse, rfb, rist, rtmfp, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtp, sdp, srt, testbin
@@ -668,7 +668,7 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-plugins-base
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 3157
@@ -677,11 +677,11 @@ Suggests: gvfs
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
 Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
 Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base_1.24.10-1-rk_arm64.deb
-Size: 689780
-MD5sum: 453bd31de556d4c7a472ca8444181044
-SHA1: 7e35a0cc1d0183d33f933e2b7da2719f1ed007d9
-SHA256: 812599f223f793ba628286e380169d3016ea5d94b6c8f8294d82037f2f8ab5f0
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base_1.24.10-2-rk_arm64.deb
+Size: 689980
+MD5sum: af98794a409c396c06ddac737cef5740
+SHA1: 1a3bca5f8a299f95ff392f67a3b46f15174164d7
+SHA256: dd4b29b804da8ddadb622745a26598b5251eaabcc8be7d85e26ba01ab9caa58c
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -705,16 +705,16 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-plugins-base-apps
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 326
 Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.76.0), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.24.0), gstreamer1.0-tools
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base-apps_1.24.10-1-rk_arm64.deb
-Size: 112904
-MD5sum: bd1d1b28b75f1888a3d030f900d83da1
-SHA1: 293512322a90b1b15be798a7e4f5f5d80b571cc2
-SHA256: 8bd55084e862e8cfe47cac61b6e183e9ff760c63ada31a3d87051fa97a463d59
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base-apps_1.24.10-2-rk_arm64.deb
+Size: 113076
+MD5sum: 85efafa70fdf23bd4af67ff471d8168f
+SHA1: f2c2d651b4e74a26ee7b04478ef3c878bbe63786
+SHA256: 0fbc9a06a2774ea43b72c5f5ed1817febfed230c8ae7caad4a1c5db4f7750680
 Section: utils
 Priority: optional
 Homepage: https://gstreamer.freedesktop.org
@@ -731,17 +731,17 @@ Description: GStreamer helper programs from the "base" set
 
 Package: gstreamer1.0-plugins-base-apps-dbgsym
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 190
-Depends: gstreamer1.0-plugins-base-apps (= 1.24.10-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base-apps-dbgsym_1.24.10-1-rk_arm64.deb
-Size: 71372
-MD5sum: e2c50a989f4a790db89551959c58b38d
-SHA1: ba0a319444199446f07e1f76cf067f7b1bcea3b3
-SHA256: 876ab7c4867a77bd23e3f7379565045e3006f7f87ee7583d4462fff6521752d2
+Depends: gstreamer1.0-plugins-base-apps (= 1.24.10-2-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base-apps-dbgsym_1.24.10-2-rk_arm64.deb
+Size: 71356
+MD5sum: 2f1dcb921014b909d6f1c7a9311eded2
+SHA1: fbd35ea96cda110492fce7995f2d86ea9f0dc157
+SHA256: bb3ccede205f9565135f2f4f0f8da3f56cc01f4836db5e464a6b88d70764ff5e
 Section: debug
 Priority: optional
 Description: debug symbols for gstreamer1.0-plugins-base-apps
@@ -749,22 +749,22 @@ Build-Ids: 219e903fc8a5b55977704e7f89fd34267209d45d 593d388cb6ad59ee66807d21c0ae
 
 Package: gstreamer1.0-plugins-base-dbgsym
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 2608
-Depends: gstreamer1.0-plugins-base (= 1.24.10-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base-dbgsym_1.24.10-1-rk_arm64.deb
-Size: 2131756
-MD5sum: c1379ed6eee8f4c5516bd03a68a4c3cb
-SHA1: 6e888ce3a048e13fa3ef6a772e1b180455fbcb02
-SHA256: 4ac009a33dabba11a08c4c5c72852e668cba4af8a5e7919a26ff53cb028bff5d
+Depends: gstreamer1.0-plugins-base (= 1.24.10-2-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-plugins-base-dbgsym_1.24.10-2-rk_arm64.deb
+Size: 2131136
+MD5sum: e7d9afeb40da6f60ae1e38d4f10f685b
+SHA1: e94bb2d0910565d73bfae8360e61fd5d4d3e6cc3
+SHA256: 44ad175f89f9fa256126327969f089686615cc9d9f6a03d58e6a2a7c504397a9
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for gstreamer1.0-plugins-base
-Build-Ids: 00299c411f35f923c60b29f7cf499df75848df27 0818f065ac62afdc8a4641f062b4b91beac8b6b2 0e32494e13aa5a3ad165cd1be11f2d2b635de4b4 157136842567b82d419918582eb8afbbfcc398d5 1dabee0684579872c5e257b56f5cb0ab49bac2bc 215504b93251cb9832cf9d9469c9f7226fc28ec3 2ed13719481de16fd54f76481b68e18c061165f7 348e7a3fa2ffb7994dd1c51591127319630eab22 36314f267ea31999645febaf1649883e03131592 3b363a4e5d80b7b4d56fc7f0843fb1ab1ad5023b 3eca0b4f10e3f92c617be2776649e2041a7e121f 41c4a195e530bf4d6d2fd4d3519571391d25ac53 48bac9867e428540441aaf077471664a48771ffa 48ffd6a13fb00162eadbeb59b7e09bf74fab973d 5507b3203c31136bf2e39962369f7760f5601097 5a1ca59b3313b0b0c73d270c87419180e1124931 5a67da51d67bd7e5f61afd77a2e6b9b35172459a 5f1d2e1cf1099bb1d8c4378801625a3ac5376f47 67f519d3e126cea0466fec958be1ce8dea84c242 6ceb4e7679076fd5d6775d74b9ca05c917a98ee8 70ab710b19d548c418c17e4c98ae338854ee7776 88fcf8b51fc794f56c8bb9d722f28ee8a1cfe8d1 9e0cae81214e5cd6f1bdb9ff715332ee2104844d a5e60e3f8ed8743d45eb01ff6fe42a251b56ccd2 ae7e81690956e1ef95f6589ed5c6ae2ae9435d6e bd476f6a74923028fa347f9f299b90ed87673bd4 db9608a740f82fa41381954494c68b4b15661c7d e66a516473c8677b12680354d3c10902cb1fd74b faf1ff0e0d2a774bda529911369b39ae80d367e9
+Build-Ids: 00299c411f35f923c60b29f7cf499df75848df27 0e32494e13aa5a3ad165cd1be11f2d2b635de4b4 157136842567b82d419918582eb8afbbfcc398d5 1dabee0684579872c5e257b56f5cb0ab49bac2bc 215504b93251cb9832cf9d9469c9f7226fc28ec3 2ed13719481de16fd54f76481b68e18c061165f7 348e7a3fa2ffb7994dd1c51591127319630eab22 36314f267ea31999645febaf1649883e03131592 3b363a4e5d80b7b4d56fc7f0843fb1ab1ad5023b 3eca0b4f10e3f92c617be2776649e2041a7e121f 41c4a195e530bf4d6d2fd4d3519571391d25ac53 48bac9867e428540441aaf077471664a48771ffa 48ffd6a13fb00162eadbeb59b7e09bf74fab973d 5507b3203c31136bf2e39962369f7760f5601097 5a1ca59b3313b0b0c73d270c87419180e1124931 5a67da51d67bd7e5f61afd77a2e6b9b35172459a 5f1d2e1cf1099bb1d8c4378801625a3ac5376f47 67f519d3e126cea0466fec958be1ce8dea84c242 6ceb4e7679076fd5d6775d74b9ca05c917a98ee8 70ab710b19d548c418c17e4c98ae338854ee7776 88fcf8b51fc794f56c8bb9d722f28ee8a1cfe8d1 9e0cae81214e5cd6f1bdb9ff715332ee2104844d a5e60e3f8ed8743d45eb01ff6fe42a251b56ccd2 ae7e81690956e1ef95f6589ed5c6ae2ae9435d6e b81b312856cce17a4b576fbebe248bc3901f6cd5 bd476f6a74923028fa347f9f299b90ed87673bd4 db9608a740f82fa41381954494c68b4b15661c7d e66a516473c8677b12680354d3c10902cb1fd74b faf1ff0e0d2a774bda529911369b39ae80d367e9
 Gstreamer-Decoders: application/kate; application/ogg; application/x-ass; application/x-ogg-avi; application/x-ogm-audio; application/x-ogm-text; application/x-ogm-video; application/x-ssa; application/x-subtitle; application/x-subtitle-dks; application/x-subtitle-lrc; application/x-subtitle-mpl2; application/x-subtitle-qttext; application/x-subtitle-sami; application/x-subtitle-tmplayer; application/x-subtitle-vtt; audio/ogg; audio/x-opus, channel-mapping-family=(int)[ 1, 255 ], stream-count=(int)[ 1, 255 ], coupled-count=(int)[ 0, 255 ]; audio/x-opus, channel-mapping-family=(int)0; audio/x-unaligned-raw, format=(string){ F64LE, F64BE, F32LE, F32BE, S32LE, S32BE, U32LE, U32BE, S24_32LE, S24_32BE, U24_32LE, U24_32BE, S24LE, S24BE, U24LE, U24BE, S20LE, S20BE, U20LE, U20BE, S18LE, S18BE, U18LE, U18BE, S16LE, S16BE, U16LE, U16BE, S8, U8 }, layout=(string){ interleaved, non-interleaved }; audio/x-vorbis; video/ogg; video/x-theora; video/x-unaligned-raw, format=(string){ A444_16LE, A444_16BE, AYUV64, RGBA64_LE, ARGB64, ARGB64_LE, BGRA64_LE, ABGR64_LE, RGBA64_BE, ARGB64_BE, BGRA64_BE, ABGR64_BE, A422_16LE, A422_16BE, A420_16LE, A420_16BE, A444_12LE, GBRA_12LE, A444_12BE, GBRA_12BE, Y412_LE, Y412_BE, A422_12LE, A422_12BE, A420_12LE, A420_12BE, A444_10LE, GBRA_10LE, A444_10BE, GBRA_10BE, A422_10LE, A422_10BE, A420_10LE, A420_10BE, BGR10A2_LE, RGB10A2_LE, Y410, A444, GBRA, AYUV, VUYA, RGBA, RBGA, ARGB, BGRA, ABGR, A422, A420, AV12, Y444_16LE, GBR_16LE, Y444_16BE, GBR_16BE, v216, P016_LE, P016_BE, Y444_12LE, GBR_12LE, Y444_12BE, GBR_12BE, I422_12LE, I422_12BE, Y212_LE, Y212_BE, I420_12LE, I420_12BE, P012_LE, P012_BE, Y444_10LE, GBR_10LE, Y444_10BE, GBR_10BE, r210, I422_10LE, I422_10BE, NV16_10LE32, NV16_10LE40, Y210, UYVP, v210, I420_10LE, I420_10BE, P010_10LE, NV12_10LE40, NV12_10LE32, P010_10BE, MT2110R, MT2110T, NV12_10BE_8L128, NV12_10LE40_4L4, Y444, BGRP, GBR, RGBP, NV24, v308, IYU2, RGBx, xRGB, BGRx, xBGR, RGB, BGR, Y42B, NV16, NV61, YUY2, YVYU, UYVY, VYUY, I420, YV12, NV12, NV21, NV12_16L32S, NV12_32L32, NV12_4L4, NV12_64Z32, NV12_8L128, Y41B, IYU1, YUV9, YVU9, BGR16, RGB16, BGR15, RGB15, RGB8P, GRAY16_LE, GRAY16_BE, GRAY10_LE32, GRAY8 }
 Gstreamer-Elements: adder, appsink, appsrc, audioconvert, audiointerleave, audiomixer, audiorate, audioresample, audiotestsrc, cdparanoiasrc, compositor, decodebin, decodebin3, dsdconvert, encodebin, encodebin2, fakevideodec, giosink, giosrc, giostreamsink, giostreamsrc, liveadder, multifdsink, multisocketsink, oggaviparse, oggdemux, oggmux, oggparse, ogmaudioparse, ogmtextparse, ogmvideoparse, opusdec, opusenc, overlaycomposition, parsebin, playbin, playbin3, playsink, rawaudioparse, rawvideoparse, socketsrc, ssaparse, streamsynchronizer, subparse, subtitleoverlay, tcpclientsink, tcpclientsrc, tcpserversink, tcpserversrc, theoradec, theoraenc, theoraparse, unalignedaudioparse, unalignedvideoparse, uridecodebin, uridecodebin3, urisourcebin, videoconvert, videoconvertscale, videorate, videoscale, videotestsrc, volume, vorbisdec, vorbisenc, vorbisparse, vorbistag
 Gstreamer-Encoders: application/ogg; audio/ogg; audio/x-opus; audio/x-vorbis; video/ogg; video/x-theora
@@ -1023,16 +1023,16 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-rockchip1
 Source: gstreamer1.0-rockchip
-Version: 1.14.4-3
+Version: 1.14.4-4
 Architecture: arm64
 Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
 Installed-Size: 346
-Depends: libc6 (>= 2.33), libdrm2 (>= 2.4.108), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.14), libgstreamer1.0-0 (>= 1.14), librga2, librockchip-mpp1, libx11-6
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-rockchip1_1.14.4-3_arm64.deb
-Size: 63936
-MD5sum: fa49119c9685b28559563fd05cdc9376
-SHA1: 9f581ca75feeb854375e8c28f003651b83672b6c
-SHA256: 47973b67b29516f0c6ae7409bfb90d657c04722a8a2caaab92f335f9f052c855
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.108), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.18.0), libgstreamer1.0-0 (>= 1.14), librga2, librockchip-mpp1, libx11-6
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-rockchip1_1.14.4-4_arm64.deb
+Size: 65884
+MD5sum: 29e2e972a077dcaea339f685a0100936
+SHA1: 394d5e7613a7639bb5648d1b1151e5078859c3b5
+SHA256: 3fd455e44523919217e95eb8fe7c8d22d010fd4868083f210ccc1ac4b1893d80
 Section: libs
 Priority: optional
 Homepage: https://github.com/rockchip-linux/gstreamer-rockchip
@@ -1040,21 +1040,21 @@ Description: The Gstreamer plugins for Rockchip platforms.
 
 Package: gstreamer1.0-rockchip1-dbgsym
 Source: gstreamer1.0-rockchip
-Version: 1.14.4-3
+Version: 1.14.4-4
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Jeffy Chen <jeffy.chen@rock-chips.com>
-Installed-Size: 400
-Depends: gstreamer1.0-rockchip1 (= 1.14.4-3)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-rockchip1-dbgsym_1.14.4-3_arm64.deb
-Size: 334212
-MD5sum: a3315ad9a3be04900c7dd7efed795ce2
-SHA1: 6500573c24fc1de53f0374cb9fab6c5100b86aca
-SHA256: fa41801a8d7fa6c5fcf2ef3285e16d04afae276277168f664c01ca0e8fdd64e0
+Installed-Size: 407
+Depends: gstreamer1.0-rockchip1 (= 1.14.4-4)
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-rockchip1-dbgsym_1.14.4-4_arm64.deb
+Size: 339952
+MD5sum: 3c0aa45d5bc1dbb6ccba987f6d7f7157
+SHA1: dbe04bd8267d6242ecead2981e1a9496954dd5b6
+SHA256: 82d37bd86d1e09e87a39cc37cce9cd2a15586b4ed50bffcc4e6b9082e2f7d2ea
 Section: debug
 Priority: optional
 Description: debug symbols for gstreamer1.0-rockchip1
-Build-Ids: 4a99531330c18a28b5e81eddced05bf9a581e223 ebaedfc5f02a58c5f010d3d75d5bb1fc50e81c1b ff84c7382675e2d0a5a4adfe90948f2d26f093db
+Build-Ids: 24e113a45bc7f025566321abca40453594d61abf 4aa8016731a2d8bb7aab5aa38e487a33b0ff3968 f2a1b5112d6ba9b47954b5ebb1376714bd98399d
 
 Package: gstreamer1.0-tools
 Source: gstreamer1.0
@@ -1102,16 +1102,16 @@ Build-Ids: 7cff049d8a2d04ae39d5ebef7d00156251c391c4 a4664436232331bdf60b343be060
 
 Package: gstreamer1.0-wpe
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 456
-Depends: gstreamer1.0-plugins-base, libgstreamer-plugins-bad1.0-0 (= 1.24.10-2-rk), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libstdc++6 (>= 14), libwayland-server0 (>= 1.11.0), libwpe-1.0-1 (>= 1.3.0), libwpebackend-fdo-1.0-1 (>= 1.8.0), libwpewebkit-2.0-1 (>= 2.39.91), libxkbcommon0 (>= 1.0.0)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-wpe_1.24.10-2-rk_arm64.deb
-Size: 218812
-MD5sum: bcdadf6de32aa795d6c2a09da49bfdb9
-SHA1: dac1c47cf00f8976e367d7cdd7c9eaa205a2f76b
-SHA256: 561f3fe39a29b22a31ed4a5dafa5c7909e8db0659554defc6aaaf58c0286681f
+Depends: gstreamer1.0-plugins-base, libgstreamer-plugins-bad1.0-0 (= 1.24.10-3-rk), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libstdc++6 (>= 14), libwayland-server0 (>= 1.11.0), libwpe-1.0-1 (>= 1.3.0), libwpebackend-fdo-1.0-1 (>= 1.8.0), libwpewebkit-2.0-1 (>= 2.39.91), libxkbcommon0 (>= 1.0.0)
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-wpe_1.24.10-3-rk_arm64.deb
+Size: 218612
+MD5sum: da120b4f4665956efec681de7217d58e
+SHA1: bb9538047d95cf54b6ff7982e7e1b8f757b5b40c
+SHA256: 4cc8ea354f6e17645aa030060385d3ad3b7cc3b13b8918542c28a014519246a2
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1136,17 +1136,17 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-wpe-dbgsym
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 187
-Depends: gstreamer1.0-wpe (= 1.24.10-2-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-wpe-dbgsym_1.24.10-2-rk_arm64.deb
-Size: 144228
-MD5sum: 1a17f684f0e8f6f60b61ff2971c851ba
-SHA1: 0d8c9b2e2e3d40a37155e72af04db58f077c3123
-SHA256: 913009a72d93aca00145928a759ff971447cba1bdf62d94b09099e29fb059455
+Depends: gstreamer1.0-wpe (= 1.24.10-3-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-wpe-dbgsym_1.24.10-3-rk_arm64.deb
+Size: 144240
+MD5sum: 8c602ff004ca9eb4e5ccee40e9eb3eda
+SHA1: 5e77faaa646cd3706abe9bd144c70779cf01e153
+SHA256: 3fb8ed2669e6f343a7427d422188eb4ec2208b521b318eab378df5e19c7ba658
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -1158,17 +1158,17 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-x
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 450
 Depends: libc6 (>= 2.17), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1
 Provides: gstreamer1.0-videosink
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-x_1.24.10-1-rk_arm64.deb
-Size: 156152
-MD5sum: 8b8f189e7a6f07135b1e8e8524766e65
-SHA1: 816c38bf036f8fbc4e1633189eb5730ff39794d6
-SHA256: 7d5a60a8c34937350309741ed2c796b9aa84251b2368e6d1f6823861588c88e0
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-x_1.24.10-2-rk_arm64.deb
+Size: 156484
+MD5sum: 216852b4aec03749fc80d4bdef6882cf
+SHA1: 7dfca6c2782d105d910dcc80573b816e637be7b8
+SHA256: 1cbaa8b639067126030ed11296654a80fefb74bb589de21b671fce3629ca29fe
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1189,22 +1189,22 @@ Gstreamer-Version: 1.24
 
 Package: gstreamer1.0-x-dbgsym
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 308
-Depends: gstreamer1.0-x (= 1.24.10-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-x-dbgsym_1.24.10-1-rk_arm64.deb
-Size: 240668
-MD5sum: 1473024367f44a993e2668d12cfadbe2
-SHA1: 63d0aadd07063e664104ac41e1e7d99b3c9c78c6
-SHA256: b03745cfd4faab77079037d92085c8f2d403e05932865ed40394d289c9ffae63
+Depends: gstreamer1.0-x (= 1.24.10-2-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/gstreamer1.0-x-dbgsym_1.24.10-2-rk_arm64.deb
+Size: 240696
+MD5sum: a7e14d9aa2da8938003733ff1796bce3
+SHA1: 42d104ef691fbdc28e8deb67760956d0ec8acaff
+SHA256: 682e1163a308a44bf48c5e2082addca3155b47c50df3cec5f9551387df92b189
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for gstreamer1.0-x
-Build-Ids: 2a0014bcb7a8968aa1ee227087fe622a06209dbc 465e86a62bcd8a623fc3758c177c93af89dfdb83 c2f075fcb80e7422c53c0f945859dbe5726705b7
+Build-Ids: 465e86a62bcd8a623fc3758c177c93af89dfdb83 648c30c3cc5d3717b4235fb22819854c5630de8b c2f075fcb80e7422c53c0f945859dbe5726705b7
 Gstreamer-Elements: clockoverlay, textoverlay, textrender, timeoverlay, ximagesink, xvimagesink
 Gstreamer-Version: 1.24
 
@@ -1983,19 +1983,19 @@ Description: Doxygen generated documentation for libdvbv5
 
 Package: libgstreamer-gl1.0-0
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 786
-Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.55), libegl1, libgbm1 (>= 8.1~0), libglib2.0-0t64 (>= 2.80.0), libglx0, libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.24.0), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1, libxcb1
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.55), libglib2.0-0t64 (>= 2.80.0), libglx0, libgstreamer-plugins-base1.0-0 (>= 1.23.1), libgstreamer1.0-0 (>= 1.24.0), libgudev-1.0-0 (>= 165), libmali-utgard-450-r7p0-gbm, libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1, libxcb1
 Recommends: gstreamer1.0-gl
 Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
-Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-gl1.0-0_1.24.10-1-rk_arm64.deb
+Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-gl1.0-0_1.24.10-2-rk_arm64.deb
 Size: 261232
-MD5sum: 055ffe012fbc66b10b2ad11b7571f3d8
-SHA1: 000c4c0c9b9eb82830c0625804849f65a9ff503b
-SHA256: a83e8631542b753b61d4eaf72f55737946311ae86ff76da3746415e10a24d1f1
+MD5sum: 948ea5bdce77491273588ec93fc81b96
+SHA1: 25d970876466c8d3146b5ea61532e6e446e7e0ca
+SHA256: e9fd5dbe412beaf986ece6dcb119eea1e398eceb3fbb6cbde8f5dada7abff371
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2012,37 +2012,37 @@ Description: GStreamer GL libraries
 
 Package: libgstreamer-gl1.0-0-dbgsym
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 697
-Depends: libgstreamer-gl1.0-0 (= 1.24.10-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-gl1.0-0-dbgsym_1.24.10-1-rk_arm64.deb
-Size: 604112
-MD5sum: 2280f3b4fcbb994fc405883a6b5dc9f4
-SHA1: 78303c939c9f0b9d8678399c49465e3c4b974214
-SHA256: 7bcd1c870d5373bcfe13b33ba83f782c07540f1e6a43b4c59f92339251bd515e
+Depends: libgstreamer-gl1.0-0 (= 1.24.10-2-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-gl1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
+Size: 604164
+MD5sum: 063e8e6cb0c8e53097555ca568bdc51c
+SHA1: 5c1ba1a11195e6e2c8845051574c58c6316ba4b6
+SHA256: 6926c75b5213f8621c299be878bd1289a1299cebcc257d874b9c5c5501cc1030
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libgstreamer-gl1.0-0
-Build-Ids: 06861c4f21b76d9ef49d4da682e32b2c03a1b48e
+Build-Ids: 1a987e341f74eab37f6902323bfe4f11b16dcb8f
 
 Package: libgstreamer-opencv1.0-0
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 324
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libopencv-core406t64 (>= 4.6.0+dfsg), libstdc++6 (>= 4.1.1)
 Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
 Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
-Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-opencv1.0-0_1.24.10-2-rk_arm64.deb
-Size: 197520
-MD5sum: b7c896dc33499204cc023473744d4d17
-SHA1: 25d44fa630bd3688d4e41728bc90fe4807d111b9
-SHA256: a7e4e56f24e5d591b0b241c96716d11fe69752ff6b151254ebff7edb486258c3
+Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-opencv1.0-0_1.24.10-3-rk_arm64.deb
+Size: 197576
+MD5sum: 2f8b35a42e3e39a7b2b5f05480e0ee76
+SHA1: 9a646d1e6a428a30b4f6b5f11b00c1df30fda453
+SHA256: d2c47e880c1041b074026d91c932370f865a2f892ca411b6a1ca1bc52f5f53d4
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2064,17 +2064,17 @@ Description: GStreamer OpenCV libraries
 
 Package: libgstreamer-opencv1.0-0-dbgsym
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 93
-Depends: libgstreamer-opencv1.0-0 (= 1.24.10-2-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-opencv1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
-Size: 79476
-MD5sum: 9c61ec394151b7a258b98026ccd4ec35
-SHA1: a0f9990a377e985a82a6a9ca29a6f4ab10989a21
-SHA256: ac69d750ed881c97cd5c67e5fbfe8b379618ee07b8e710279fe8e8380237f949
+Depends: libgstreamer-opencv1.0-0 (= 1.24.10-3-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-opencv1.0-0-dbgsym_1.24.10-3-rk_arm64.deb
+Size: 79480
+MD5sum: d62c3e73a8384daf0b875988d8c5892b
+SHA1: 3e8510d42041100280b9843732a3291c5d762899
+SHA256: 5b12e93a439e108b056e29eba927c54ae183a51c625431e55350953841a5c091
 Section: debug
 Priority: optional
 Multi-Arch: same
@@ -2083,17 +2083,17 @@ Build-Ids: 510dbd969c5eec51db88bb6b0341f6038b9c6f7d
 
 Package: libgstreamer-plugins-bad1.0-0
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 3696
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.98), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-gl1.0-0 (>= 1.24.0), libgstreamer-plugins-base1.0-0 (>= 1.24.0), libgstreamer1.0-0 (>= 1.24.0), libnice10 (>= 0.1.21), libstdc++6 (>= 12), libva-drm2 (>= 1.8), libva2 (>= 2.21.0), libvulkan1 (>= 1.3.204.0), libwayland-client0 (>= 1.23.0), libwayland-cursor0 (>= 1.11.0), libxcb1, libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0)
 Conflicts: pitivi (<< 0.9999)
-Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.24.10-2-rk_arm64.deb
-Size: 874552
-MD5sum: 582991a7ea466f03f33bccc74f47b32c
-SHA1: e43584bd83264b061e8c70a820091c413b5819be
-SHA256: 884b2b7d256e2c52eab9e637c513d12100eab8662a79f712c3ddae7f48834378
+Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.24.10-3-rk_arm64.deb
+Size: 874740
+MD5sum: f1d6c353bea20471b6321d0774d32d19
+SHA1: 70a3dbe809b3fc8c1954a560e871f21ebbe7b133
+SHA256: 88a1f3e55f08a6a99af1a1e0556819da3835d037e9b601f0ff9b4dca102cd68b
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2116,36 +2116,36 @@ Description: GStreamer libraries from the "bad" set
 
 Package: libgstreamer-plugins-bad1.0-0-dbgsym
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
-Installed-Size: 3381
-Depends: libgstreamer-plugins-bad1.0-0 (= 1.24.10-2-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-bad1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
-Size: 2927780
-MD5sum: f7e44b211b9ec47774354054a17c97ae
-SHA1: 2735bb968fdac8d95e40548b0b09a2deb93916b4
-SHA256: fdbb1385558b2591e82c8bc0f078d615d2fa66e66338f26134a02885ed65fedc
+Installed-Size: 3382
+Depends: libgstreamer-plugins-bad1.0-0 (= 1.24.10-3-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-bad1.0-0-dbgsym_1.24.10-3-rk_arm64.deb
+Size: 2928068
+MD5sum: fa6ab27f95a18643f656f32f06756e7e
+SHA1: 80fe4c762f9a98eeb2d4a8e024fee566f32c9943
+SHA256: 539a4536c97d5b7dbb30822b934435615c42a445fa2917ea9e58608b5ac97998
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libgstreamer-plugins-bad1.0-0
-Build-Ids: 0370467ed0fb47cff46e692b8ac1590556d6c7b7 06f039dd753b75e4bb780ec940a928638f3dd573 2640475b686caf1923729a56022786007d956cbf 26f224c7f1c9a2f101b93276654f93052674b20b 3a5aa608b8db5a147e0bdc191ccfa36c95b5e48e 5a4f4fc9dd2170548c9a0e6494849915ce1e5b91 6237d520b8ddc4173fa62e5170c17fc68d4fd1e4 706452386b2463ae69252ac7a553d5632033ade4 739072c0991e796a9bb0dc1200b1e98e22410d33 7c316b5a280a49e32e1ef6b5b8a9c48f28b4b7b8 7ffb6173f564afbfcdf77a5a7b2e72309fac575c 856a6ce94dbcc9b2a124c0aabf57dcd62753a2fc 910308d2d357572bef0e8fc33b8e827316bef518 a3f4383c71e1225dfc97e06fa82b4f5f389021e5 af7cc9faa9859189066b79ff86cdd7386c1d4ab0 b0fe95f18e8dd2b88eea01526c10bbc372f7f275 b902f7deb6916ce611f4ebe6c6103463fd3901f7 c11188e287aa13282596697f260fe2437d9580fe cf6403b517c31e5174cb8af66ed6602675171859 d24a4a1d646b102328bf3f32c2d0a5baf30505ee db27e87566d63afbe268c40bf0d419ebb8dbe08d e1b327db870195f5ff8d11a675dc2243e7dfe787 f61439c31eac146a7afb70b1f4940d0094670103
+Build-Ids: 0370467ed0fb47cff46e692b8ac1590556d6c7b7 06f039dd753b75e4bb780ec940a928638f3dd573 1e21b7eda7f103be5766424de6a6f645f8d9758f 2640475b686caf1923729a56022786007d956cbf 26f224c7f1c9a2f101b93276654f93052674b20b 3a5aa608b8db5a147e0bdc191ccfa36c95b5e48e 48620e0ebd2a4004062816d604bae09ce33da566 5a4f4fc9dd2170548c9a0e6494849915ce1e5b91 6237d520b8ddc4173fa62e5170c17fc68d4fd1e4 706452386b2463ae69252ac7a553d5632033ade4 739072c0991e796a9bb0dc1200b1e98e22410d33 7c316b5a280a49e32e1ef6b5b8a9c48f28b4b7b8 7ffb6173f564afbfcdf77a5a7b2e72309fac575c 84628f0d39aba888cc93aae28a370beba4691dc2 856a6ce94dbcc9b2a124c0aabf57dcd62753a2fc 910308d2d357572bef0e8fc33b8e827316bef518 a3f4383c71e1225dfc97e06fa82b4f5f389021e5 af7cc9faa9859189066b79ff86cdd7386c1d4ab0 b902f7deb6916ce611f4ebe6c6103463fd3901f7 c11188e287aa13282596697f260fe2437d9580fe cf6403b517c31e5174cb8af66ed6602675171859 db27e87566d63afbe268c40bf0d419ebb8dbe08d e1b327db870195f5ff8d11a675dc2243e7dfe787
 
 Package: libgstreamer-plugins-bad1.0-dev
 Source: gst-plugins-bad1.0
-Version: 1.24.10-2-rk
+Version: 1.24.10-3-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
 Installed-Size: 3961
-Depends: gir1.2-gst-plugins-bad-1.0 (= 1.24.10-2-rk), libgstreamer-opencv1.0-0 (= 1.24.10-2-rk), libgstreamer-plugins-bad1.0-0 (= 1.24.10-2-rk), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libopencv-dev (>= 2.3.0)
+Depends: gir1.2-gst-plugins-bad-1.0 (= 1.24.10-3-rk), libgstreamer-opencv1.0-0 (= 1.24.10-3-rk), libgstreamer-plugins-bad1.0-0 (= 1.24.10-3-rk), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libopencv-dev (>= 2.3.0)
 Conflicts: pitivi (<< 0.9999)
-Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.24.10-2-rk_arm64.deb
-Size: 484276
-MD5sum: eafae4c17fee68f1f56e24febd9103c9
-SHA1: e915f4a687afcdcf14cf4a4993addfaafacf92ab
-SHA256: 84884809491cab9ca2b8075477e459590f3d9cfea445c7d0d295273c24186e0b
+Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.24.10-3-rk_arm64.deb
+Size: 484436
+MD5sum: d1d55208c637edd34900e242a49c6d42
+SHA1: 62129f57fce56e2b7473aa3218c0ecd18f1e1727
+SHA256: b7d0e07e0857390969a6edcef8921a395feb1f970bd17931a7e8075667593052
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -2168,7 +2168,7 @@ Description: GStreamer development files for libraries from the "bad" set
 
 Package: libgstreamer-plugins-base1.0-0
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 3852
@@ -2177,11 +2177,11 @@ Recommends: gstreamer1.0-plugins-base
 Suggests: libvisual-0.4-plugins
 Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.15.1)
 Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), libgstreamer-plugins-bad1.0-0 (<< 1.15.1), totem-gstreamer (<= 2.17.92-0ubuntu1)
-Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-base1.0-0_1.24.10-1-rk_arm64.deb
-Size: 906496
-MD5sum: 5136688779101d0a758ed82fe293ec1a
-SHA1: d8a8a671cda8ef1ccaa8cfb6391ac4c3ed3a63fb
-SHA256: 8a8a3c55e15cb68839c9fde505ff61eed867bc6d0e2c9c234c761f18b5f47d58
+Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-base1.0-0_1.24.10-2-rk_arm64.deb
+Size: 906372
+MD5sum: c7e7e49152843e65390312a315afb620
+SHA1: a52718c0d1b6908b7f0c20b3bc1c484c642d8aef
+SHA256: 2b5b97e65083bd444d8965d4aae4c5e1be19527ec0a13e2bc5d645113a541c87
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2199,37 +2199,37 @@ Description: GStreamer libraries from the "base" set
 
 Package: libgstreamer-plugins-base1.0-0-dbgsym
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 Installed-Size: 2889
-Depends: libgstreamer-plugins-base1.0-0 (= 1.24.10-1-rk)
-Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-base1.0-0-dbgsym_1.24.10-1-rk_arm64.deb
-Size: 2517012
-MD5sum: 2c6497a0d1cec54b9c8a23b1447291fb
-SHA1: c975da6aa19c8a32e5df36e3a4000fe543bd3320
-SHA256: 45e584a178214ac9e9753c6f6e91af4bf6333457d4ca11ca7c1a7cff03eb4703
+Depends: libgstreamer-plugins-base1.0-0 (= 1.24.10-2-rk)
+Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-base1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
+Size: 2516460
+MD5sum: f5e428e93fe1d1677da74ebd18df01db
+SHA1: bf0c084b914122a11737fa3981ad1e76baac43e3
+SHA256: 0078392637368a3d8a9c947d6c5c8427fab303aa70f3d69d03a5234842ab9abe
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for libgstreamer-plugins-base1.0-0
-Build-Ids: 09e32df6913657405d4045a4c473fec86785703f 2f7e310802cf249c724bb1599e6cd4182bfc53b0 313414cb64ba5799e829b559867477ea10397c82 44e7e5ab233cd4af028749dd5cd1b398ba17a6ce 49bb01ee260afa1e519cedb5b268804e4362b07c 80ec18eda42eb15de84b31ee02e1bb2a59773f9c 84000161964f27f8d795d4e1babc934de52788de 9b85017a5b226a3a045fdb423e8b5df3feb72a52 b68151e084f32ab3a0e7bd1db3df1e23e31865f4 f1e8cc9d3acce0b194aad1ad562822a0aace1342 f334b9d1d4491e8546e470c9a5b2bd2311fddc7e
+Build-Ids: 09e32df6913657405d4045a4c473fec86785703f 2f7e310802cf249c724bb1599e6cd4182bfc53b0 313414cb64ba5799e829b559867477ea10397c82 44e7e5ab233cd4af028749dd5cd1b398ba17a6ce 49bb01ee260afa1e519cedb5b268804e4362b07c 6e4a8dc312830eb61746c90ac87845f2daf943e3 80ec18eda42eb15de84b31ee02e1bb2a59773f9c 84000161964f27f8d795d4e1babc934de52788de 9b85017a5b226a3a045fdb423e8b5df3feb72a52 b68151e084f32ab3a0e7bd1db3df1e23e31865f4 f334b9d1d4491e8546e470c9a5b2bd2311fddc7e
 
 Package: libgstreamer-plugins-base1.0-dev
 Source: gst-plugins-base1.0
-Version: 1.24.10-1-rk
+Version: 1.24.10-2-rk
 Architecture: arm64
 Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
-Installed-Size: 6347
-Depends: libgstreamer-plugins-base1.0-0 (= 1.24.10-1-rk), libgstreamer-gl1.0-0 (= 1.24.10-1-rk), libc6-dev | libc-dev, pkgconf, libgstreamer1.0-dev (>= 1.16.2), libglib2.0-dev, liborc-0.4-dev (>= 1:0.4.24), libgl-dev, libegl-dev, libgles-dev, libx11-xcb-dev, libwayland-dev (>= 1.11), libdrm-dev (>= 2.4.55), libgbm-dev, libgudev-1.0-dev (>= 147), gir1.2-gst-plugins-base-1.0 (= 1.24.10-1-rk)
+Installed-Size: 6348
+Depends: libgstreamer-plugins-base1.0-0 (= 1.24.10-2-rk), libgstreamer-gl1.0-0 (= 1.24.10-2-rk), libc6-dev | libc-dev, pkgconf, libgstreamer1.0-dev (>= 1.16.2), libglib2.0-dev, liborc-0.4-dev (>= 1:0.4.24), libgl-dev, libegl-dev, libgles-dev, libx11-xcb-dev, libwayland-dev (>= 1.11), libdrm-dev (>= 2.4.55), libgbm-dev, libgudev-1.0-dev (>= 147), gir1.2-gst-plugins-base-1.0 (= 1.24.10-2-rk)
 Conflicts: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
 Breaks: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
-Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.10-1-rk_arm64.deb
-Size: 554152
-MD5sum: 8b97e350781059c203265989dbdf4fc3
-SHA1: 9f3fa9eb6a0ef6cb61beb6e841866dfedfda1698
-SHA256: c0762ec3d78a3ecd922ebb7d2f038e32fe5d90473e20774b622fe2434301a19e
+Filename: dists/trixie-rockchip/main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.10-2-rk_arm64.deb
+Size: 554696
+MD5sum: 3f20c862af1a50ef7eaa53b53faa10a5
+SHA1: ee6a5c6c8180a9d730acbcd9af22be8ee3d547fd
+SHA256: 75f65423dbc236078542afd015271b5aab2ab05bf1f9b8689e8153e51e4f1927
 Section: libdevel
 Priority: optional
 Homepage: https://gstreamer.freedesktop.org

@@ -6,7 +6,7 @@ Version: 1.0
 Architectures: arm64
 Components: base main non-free
 Description: BuzzTV software repository
-Date: Thu, 13 Aug 2026 22:20:52 +0000
+Date: Fri, 04 Sep 2026 03:55:28 +0000
 MD5Sum:
  68b36ca5591fbc8df9647e39ea5261ba 12684 non-free/binary-arm64/libmali-valhall-g610-g13p0-wayland-gbm-dbgsym_2.0-2_arm64.deb
  ecf81d0fc3e9e242ce718554ff7c95a0 526404 non-free/binary-arm64/libmali-utgard-450-r7p0-x11-gbm_2.0-2_arm64.deb
@@ -130,10 +130,12 @@ MD5Sum:
  cc093c74d38d448e8654e39575d3d445 11564 non-free/binary-arm64/libmali-bifrost-g52-g24p0-gbm-dbgsym_2.0-2_arm64.deb
  e6af9a6080dba663ff843d7ce2dec165 12448372 non-free/binary-arm64/libmali-bifrost-g52-g13p0-gbm_2.0-2_arm64.deb
  1606b61b6a37c459a16ca5ffc4aa24e2 11688016 non-free/binary-arm64/libmali-valhall-g610-g6p0-gbm_2.0-2_arm64.deb
+ 29ef741a52b19fab236a555569872b37 200900 main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.24.10-3-rk_arm64.deb
  74cc6b2dc652c41d1254e55be94ae7a4 108744 main/binary-arm64/libv4l-dev_1.28.1-1-rk_arm64.deb
  fc8033f670af5f563fa72cb509a2d6eb 147888 main/binary-arm64/gstreamer1.0-qt5_1.24.10-1-rk_arm64.deb
+ d62c3e73a8384daf0b875988d8c5892b 79480 main/binary-arm64/libgstreamer-opencv1.0-0-dbgsym_1.24.10-3-rk_arm64.deb
  776b98705d697329f77935c5c698edd4 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
- 52850f63af4b5d5e88615ea44ab01fe4 255616 main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.24.10-2-rk_arm64.deb
+ d1d55208c637edd34900e242a49c6d42 484436 main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.24.10-3-rk_arm64.deb
  d991c9d21d59779f83f53e0f377ac8fe 52304 main/binary-arm64/libpostproc58-dbgsym_7.1-3-rk_arm64.deb
  31103c6ceb4cc210305cbadcba785daa 166620 main/binary-arm64/libpixman-1-0-udeb_0.44.0-3-rk_arm64.udeb
  2160a954946b96cce5fb7ac2b4b7956c 134516 main/binary-arm64/gstreamer1.0-tools-dbgsym_1.24.10-2-rk_arm64.deb
@@ -144,19 +146,24 @@ MD5Sum:
  6d6eb92cbcc7a316132157cc5af57ce5 228748 main/binary-arm64/libdvbv5-dev_1.28.1-1-rk_arm64.deb
  5329036ef86979d08603b09ee6d58547 19548 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.11-2_arm64.deb
  f174915ded6486f06ac982025badee1e 80268 main/binary-arm64/librga2_2.10.4-1_arm64.deb
- 8b8f189e7a6f07135b1e8e8524766e65 156152 main/binary-arm64/gstreamer1.0-x_1.24.10-1-rk_arm64.deb
+ a7e14d9aa2da8938003733ff1796bce3 240696 main/binary-arm64/gstreamer1.0-x-dbgsym_1.24.10-2-rk_arm64.deb
+ af98794a409c396c06ddac737cef5740 689980 main/binary-arm64/gstreamer1.0-plugins-base_1.24.10-2-rk_arm64.deb
+ 2f1dcb921014b909d6f1c7a9311eded2 71356 main/binary-arm64/gstreamer1.0-plugins-base-apps-dbgsym_1.24.10-2-rk_arm64.deb
  a732220fe8af6175b7cda25233e550f8 54924 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.11-2_arm64.deb
+ 29e2e972a077dcaea339f685a0100936 65884 main/binary-arm64/gstreamer1.0-rockchip1_1.14.4-4_arm64.deb
  51b62934427e33c4cea624e821d93d6e 880324 main/binary-arm64/libpixman-1-0-dbgsym_0.44.0-3-rk_arm64.deb
  44be810b517ad44a76912b9a2da0dacf 5243336 main/binary-arm64/v4l-utils-dbgsym_1.28.1-1-rk_arm64.deb
  9f26ef3948e651a9a29d5178792f2cd4 148368 main/binary-arm64/libv4lconvert0t64_1.28.1-1-rk_arm64.deb
  d4e393c10bf303d729a1eba976b4fe37 649132 main/binary-arm64/libswscale8-dbgsym_7.1-3-rk_arm64.deb
  39ff3e818f77ea056ad9a9db2fa33c53 5167072 main/binary-arm64/libgstreamer1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
- c2f5cd46a1f8d12e22ccfa166a3e59df 51973 main/binary-arm64/Packages.gz
- 5136688779101d0a758ed82fe293ec1a 906496 main/binary-arm64/libgstreamer-plugins-base1.0-0_1.24.10-1-rk_arm64.deb
- 243f09d0ef69165634e83e43bf0fc3f1 259964 main/binary-arm64/gstreamer1.0-opencv_1.24.10-2-rk_arm64.deb
+ 0a17afd4a1435945e429e807ad9c164c 52003 main/binary-arm64/Packages.gz
  9466cf5812af492c65544fc270688031 572288 main/binary-arm64/libgstreamer1.0-dev_1.24.10-2-rk_arm64.deb
  0de6a247f8b81eda10d6e49abb36fc0b 1281176 main/binary-arm64/libgstreamer1.0-0_1.24.10-2-rk_arm64.deb
+ 8c03fe9989bb3bb4b04cd262690cb0f2 255644 main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.24.10-3-rk_arm64.deb
  84bbde53b9e462e95f94dd15d702f5d1 5164 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.11-2_arm64.deb
+ 948ea5bdce77491273588ec93fc81b96 261232 main/binary-arm64/libgstreamer-gl1.0-0_1.24.10-2-rk_arm64.deb
+ f5e428e93fe1d1677da74ebd18df01db 2516460 main/binary-arm64/libgstreamer-plugins-base1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
+ 063e8e6cb0c8e53097555ca568bdc51c 604164 main/binary-arm64/libgstreamer-gl1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
  3efe7e014999717ad7eddfbb4a7f83fc 1486144 main/binary-arm64/gstreamer1.0-qt6-dbgsym_1.24.10-1-rk_arm64.deb
  ff43161d85ccacdc129ec8ccb512cb79 3549356 main/binary-arm64/libavformat-extra61-dbgsym_7.1-3-rk_arm64.deb
  4730c43ba036e9edd395f88a46d1d56a 149016 main/binary-arm64/libv4l-rkmpp-dbgsym_1.8.0-1_arm64.deb
@@ -171,10 +178,7 @@ MD5Sum:
  2b215c8f3780eb97c4fbcbe91260f669 122380 main/binary-arm64/libavdevice-dev_7.1-3-rk_arm64.deb
  b2ce88416323383d684130c1d05fbecb 7256 main/binary-arm64/rockchip-config_1.0.0-1_all.deb
  635504070e05cd586d5158ea3adabb9d 283036 main/binary-arm64/gstreamer1.0-libav-dbgsym_1.24.10-1-rk_arm64.deb
- 453bd31de556d4c7a472ca8444181044 689780 main/binary-arm64/gstreamer1.0-plugins-base_1.24.10-1-rk_arm64.deb
- 1473024367f44a993e2668d12cfadbe2 240668 main/binary-arm64/gstreamer1.0-x-dbgsym_1.24.10-1-rk_arm64.deb
- 582991a7ea466f03f33bccc74f47b32c 874552 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.24.10-2-rk_arm64.deb
- b7c896dc33499204cc023473744d4d17 197520 main/binary-arm64/libgstreamer-opencv1.0-0_1.24.10-2-rk_arm64.deb
+ 216852b4aec03749fc80d4bdef6882cf 156484 main/binary-arm64/gstreamer1.0-x_1.24.10-2-rk_arm64.deb
  655dacc92550e9c801b468922c2b336c 6072288 main/binary-arm64/libavcodec-dev_7.1-3-rk_arm64.deb
  89cd16b86e736199c5e69e0b8f3b16c6 5016 main/binary-arm64/buzztv-ota-tools_1.0.18-1_all.deb
  2fced7edba790215bfb362ea6efce9bf 96980 main/binary-arm64/libswresample-dev_7.1-3-rk_arm64.deb
@@ -182,71 +186,69 @@ MD5Sum:
  2754ffdb983c9e6caad87549c2ac8b0b 12273388 main/binary-arm64/buzztv-dsw_1.0.15+18_arm64.deb
  0f760aa3ae1ad7cc3c600a08dc83bbcf 154156 main/binary-arm64/ir-keytable_1.28.1-1-rk_arm64.deb
  e8ac3f5005a26a1cf21df3fae873b269 98304 main/binary-arm64/gstreamer1.0-libav_1.24.10-1-rk_arm64.deb
- 5f5dd2089b657b32582974cbfa73ff82 108876 main/binary-arm64/gstreamer1.0-alsa-dbgsym_1.24.10-1-rk_arm64.deb
+ 7c733da678b8d6c4756bdfc3870f9327 108872 main/binary-arm64/gstreamer1.0-alsa-dbgsym_1.24.10-2-rk_arm64.deb
  bff104274ca1504e3fc8e22eb720eab9 6830660 main/binary-arm64/libavfilter10-dbgsym_7.1-3-rk_arm64.deb
- f7e44b211b9ec47774354054a17c97ae 2927780 main/binary-arm64/libgstreamer-plugins-bad1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
  469f9454edbe45ebc1c5fd40f38b9a59 86156 main/binary-arm64/libv4l2rds0t64_1.28.1-1-rk_arm64.deb
  8e8fa96f44db53bf8abc61b0753015ab 220716 main/binary-arm64/libswscale-dev_7.1-3-rk_arm64.deb
  953e6abf97c212fe1130b58a7747c923 156324 main/binary-arm64/gstreamer1.0-qt6_1.24.10-1-rk_arm64.deb
  d342786317309772e916f29ab8fd257e 413960 main/binary-arm64/libdvbv5-doc_1.28.1-1-rk_all.deb
- 8b97e350781059c203265989dbdf4fc3 554152 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.10-1-rk_arm64.deb
  acfd51905bc5740515355d2e5d62cbde 97044 main/binary-arm64/gstreamer1.0-pulseaudio_1.24.10-1-rk_arm64.deb
  6e9e85ab9a95c37b3c20c697528a7190 1120616 main/binary-arm64/libavformat-extra61_7.1-3-rk_arm64.deb
  0290dd71904dd20cd117fe6ed43da6db 47388 main/binary-arm64/librockchip-vpu0_1.0.11-2_arm64.deb
- 055ffe012fbc66b10b2ad11b7571f3d8 261232 main/binary-arm64/libgstreamer-gl1.0-0_1.24.10-1-rk_arm64.deb
  db63583188b83d7481f57b7162f05fdb 6835076 main/binary-arm64/libavfilter-extra10-dbgsym_7.1-3-rk_arm64.deb
  0e329486269f69ff30b76ac4b145ae84 102876 main/binary-arm64/gstreamer1.0-tools_1.24.10-2-rk_arm64.deb
  59661d1229d5fb500dcfd182e2bf2e5e 538108 main/binary-arm64/libavutil-dev_7.1-3-rk_arm64.deb
  3dcb4a10d8302cd847d6445b2195e787 186304 main/binary-arm64/qvidcap_1.28.1-1-rk_arm64.deb
+ f209f5f54e5a6c56cc82389cd8be5e0c 259988 main/binary-arm64/gstreamer1.0-opencv_1.24.10-3-rk_arm64.deb
  d0561c38deed07c8d6332a0e101cf445 98692 main/binary-arm64/libswresample5-dbgsym_7.1-3-rk_arm64.deb
  14c4cf865be2e7ecf1367ec765e5a876 1091848 main/binary-arm64/qvidcap-dbgsym_1.28.1-1-rk_arm64.deb
- be021fbdb7cc888ca516aae361d40046 23392 main/binary-arm64/gstreamer1.0-plugins-bad-apps-dbgsym_1.24.10-2-rk_arm64.deb
+ 3c0aa45d5bc1dbb6ccba987f6d7f7157 339952 main/binary-arm64/gstreamer1.0-rockchip1-dbgsym_1.14.4-4_arm64.deb
  58b0ff9a7f4b3dc6b54bb1975590e221 44364 main/binary-arm64/libv4l-rkmpp_1.8.0-1_arm64.deb
  1db11296f04a21982827a364e06d9476 1118256 main/binary-arm64/libavformat61_7.1-3-rk_arm64.deb
  a2aef7a66375d09799dd5f41959aa8f5 21662644 main/binary-arm64/libavcodec-extra61-dbgsym_7.1-3-rk_arm64.deb
  d90c6418522ca3ed5b8c764899bcdbd7 65620 main/binary-arm64/librockchip-mpp-dev_1.0.11-2_arm64.deb
  686efd2fb243a97062105a5c17c887da 113648 main/binary-arm64/libv4l-0t64_1.28.1-1-rk_arm64.deb
- 0d6b0997831ecc990e425d8edc1fdf93 329296 main/binary-arm64/gstreamer1.0-gl-dbgsym_1.24.10-1-rk_arm64.deb
+ da120b4f4665956efec681de7217d58e 218612 main/binary-arm64/gstreamer1.0-wpe_1.24.10-3-rk_arm64.deb
  7c42376cc646b1e42fec8b9cc295e39e 34178748 main/binary-arm64/cobalt_1.0.2-rk.deb
+ daf2f1d99a2e2f292c29b6d6f02cd5d5 178000 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.10-2-rk_arm64.deb
  2595b65b136c18bc4da973cf78a0525a 198404 main/binary-arm64/libswscale8_7.1-3-rk_arm64.deb
  9a5a80b29b20c11e5a787880cd069c8d 91412 main/binary-arm64/dvb-tools-dbgsym_1.28.1-1-rk_arm64.deb
  9b020cb506a599954f54c82b44c52740 5396992 main/binary-arm64/libavcodec61_7.1-3-rk_arm64.deb
  2e7d158c590f96f44060897ae2ba5ab4 905992 main/binary-arm64/librockchip-mpp1_1.0.11-2_arm64.deb
  e748581504270954b041935f956c6269 846452 main/binary-arm64/ffmpeg-dbgsym_7.1-3-rk_arm64.deb
- eafae4c17fee68f1f56e24febd9103c9 484276 main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.24.10-2-rk_arm64.deb
  8c2f8395288f4232b5c62e56a7341fcb 48368 main/binary-arm64/libavcodec-extra_7.1-3-rk_arm64.deb
+ fa6ab27f95a18643f656f32f06756e7e 2928068 main/binary-arm64/libgstreamer-plugins-bad1.0-0-dbgsym_1.24.10-3-rk_arm64.deb
+ e4014b0ea6303584636c68d638095d94 115428 main/binary-arm64/gstreamer1.0-alsa_1.24.10-2-rk_arm64.deb
  93224f8a840aa2b809a09c1b023565e5 3539008 main/binary-arm64/libavformat61-dbgsym_7.1-3-rk_arm64.deb
+ c7e7e49152843e65390312a315afb620 906372 main/binary-arm64/libgstreamer-plugins-base1.0-0_1.24.10-2-rk_arm64.deb
+ 030eba46c640f1703867d793267ed7aa 10459060 main/binary-arm64/gstreamer1.0-plugins-bad-dbgsym_1.24.10-3-rk_arm64.deb
  493cc4159d78fc63db13c8a9f80818b1 2045376 main/binary-arm64/gstreamer1.0-plugins-good_1.24.10-1-rk_arm64.deb
  362de5b8e31f4e45e9c58bffb822e3aa 1420240 main/binary-arm64/gstreamer1.0-qt5-dbgsym_1.24.10-1-rk_arm64.deb
  75e25edefbbb9b8c519125d8638d43c2 24356 main/binary-arm64/librga-dev_2.10.4-1_arm64.deb
+ 3f20c862af1a50ef7eaa53b53faa10a5 554696 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.10-2-rk_arm64.deb
  979c343f98fc899e16af1a6c55ec18fc 1009804 main/binary-arm64/libavutil59-dbgsym_7.1-3-rk_arm64.deb
  a3eb9a55f2251914ea4a114dab4d6284 2003292 main/binary-arm64/libavfilter-dev_7.1-3-rk_arm64.deb
- 7e991c7dbf3215aa513e36345238ddfe 2785844 main/binary-arm64/gstreamer1.0-plugins-bad_1.24.10-2-rk_arm64.deb
- bcdadf6de32aa795d6c2a09da49bfdb9 218812 main/binary-arm64/gstreamer1.0-wpe_1.24.10-2-rk_arm64.deb
  3030c628cf4f997c71947dac09a53a62 48368 main/binary-arm64/libavfilter-extra_7.1-3-rk_arm64.deb
- 3bb547b37fa1876b3ba82df08380491d 236867 main/binary-arm64/Packages
+ 1885699fdd26bbf124ec57476691c145 236755 main/binary-arm64/Packages
  784de27d68f877a3a4b82f24c15046a6 107420 main/binary-arm64/libavdevice61_7.1-3-rk_arm64.deb
- 1c6bcccfb5a6a93154ee5c0dc7f4c02f 115584 main/binary-arm64/gstreamer1.0-alsa_1.24.10-1-rk_arm64.deb
  b5d9c77e35165956c3d83c6eb95803df 77768 main/binary-arm64/libv4l-0t64-dbgsym_1.28.1-1-rk_arm64.deb
+ 1b1d8ade254d407e5b0658214f2be50a 329336 main/binary-arm64/gstreamer1.0-gl-dbgsym_1.24.10-2-rk_arm64.deb
  44de18b7346cef797942f244c67457e1 378504 main/binary-arm64/libavutil59_7.1-3-rk_arm64.deb
- 21579c50284fe5c140014c1ed4fd9fc8 177888 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.10-1-rk_arm64.deb
  dabf77d3eaec99d12611cfd80fb6805f 86936 main/binary-arm64/gstreamer1.0-gtk3-dbgsym_1.24.10-1-rk_arm64.deb
  9831338416ad8f5c7bf2ab0f2d676aca 3657416 main/binary-arm64/libavfilter10_7.1-3-rk_arm64.deb
- ae1b2376c6365e307fea30565cdb16a3 180640 main/binary-arm64/gstreamer1.0-gl_1.24.10-1-rk_arm64.deb
- 1a6921e6ed88ad69a30f3acb901e08fe 10458524 main/binary-arm64/gstreamer1.0-plugins-bad-dbgsym_1.24.10-2-rk_arm64.deb
- 9c61ec394151b7a258b98026ccd4ec35 79476 main/binary-arm64/libgstreamer-opencv1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
+ 2f8b35a42e3e39a7b2b5f05480e0ee76 197576 main/binary-arm64/libgstreamer-opencv1.0-0_1.24.10-3-rk_arm64.deb
+ 85efafa70fdf23bd4af67ff471d8168f 113076 main/binary-arm64/gstreamer1.0-plugins-base-apps_1.24.10-2-rk_arm64.deb
+ fcbdacabb85cc4df2bdbb013f0c68e0c 2787540 main/binary-arm64/gstreamer1.0-plugins-bad_1.24.10-3-rk_arm64.deb
+ e7d9afeb40da6f60ae1e38d4f10f685b 2131136 main/binary-arm64/gstreamer1.0-plugins-base-dbgsym_1.24.10-2-rk_arm64.deb
  0bc386bcf35110c19609ffc8d3592f46 222024 main/binary-arm64/libavdevice61-dbgsym_7.1-3-rk_arm64.deb
  29551b3374c95899bf9febc6418508a0 119004 main/binary-arm64/gir1.2-gstreamer-1.0_1.24.10-2-rk_arm64.deb
+ 7e0160b21cb0c7f359960da596939379 23400 main/binary-arm64/gstreamer1.0-plugins-bad-apps-dbgsym_1.24.10-3-rk_arm64.deb
  58abe1629e669aa2ec2d5397f2c0e583 189836 main/binary-arm64/qv4l2_1.28.1-1-rk_arm64.deb
  85cfae90eddd92d3089a2e1d4b8f9860 21641136 main/binary-arm64/libavcodec61-dbgsym_7.1-3-rk_arm64.deb
- e8d1316da48e2ed19fecc728ec57bdbc 1007364 main/binary-arm64/gstreamer1.0-opencv-dbgsym_1.24.10-2-rk_arm64.deb
+ dbc8c4cb25df7c9c1460302c9f156d83 1007372 main/binary-arm64/gstreamer1.0-opencv-dbgsym_1.24.10-3-rk_arm64.deb
  d52c9112138d61d828cc48654528776b 3660344 main/binary-arm64/libavfilter-extra10_7.1-3-rk_arm64.deb
- fa49119c9685b28559563fd05cdc9376 63936 main/binary-arm64/gstreamer1.0-rockchip1_1.14.4-3_arm64.deb
  882c31dde8f16d46996fa79c07e090f8 233268 main/binary-arm64/libdvbv5-0t64-dbgsym_1.28.1-1-rk_arm64.deb
- 1a17f684f0e8f6f60b61ff2971c851ba 144228 main/binary-arm64/gstreamer1.0-wpe-dbgsym_1.24.10-2-rk_arm64.deb
- 2c6497a0d1cec54b9c8a23b1447291fb 2517012 main/binary-arm64/libgstreamer-plugins-base1.0-0-dbgsym_1.24.10-1-rk_arm64.deb
- 2280f3b4fcbb994fc405883a6b5dc9f4 604112 main/binary-arm64/libgstreamer-gl1.0-0-dbgsym_1.24.10-1-rk_arm64.deb
- fed678b5a7b4e6c7d3aca5a71ddd616d 200860 main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.24.10-2-rk_arm64.deb
+ f1d6c353bea20471b6321d0774d32d19 874740 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.24.10-3-rk_arm64.deb
  67e8ba26735e44a32f2a94709dc24476 1978600 main/binary-arm64/ffmpeg_7.1-3-rk_arm64.deb
  78379ef00801f084bd88b7da7cd7e000 2314816 main/binary-arm64/ffmpeg-doc_7.1-3-rk_all.deb
  9dcc860ab8dcda08850596c8bf00b09e 21748 main/binary-arm64/libv4l2rds0t64-dbgsym_1.28.1-1-rk_arm64.deb
@@ -255,16 +257,14 @@ MD5Sum:
  1d147452d8838ddd6d955ada18127f50 13956 main/binary-arm64/libgstreamer1.0-dev-dbgsym_1.24.10-2-rk_arm64.deb
  29d97dbe2a84dcb91f84c1a2396fb9cc 120632 main/binary-arm64/dvb-tools_1.28.1-1-rk_arm64.deb
  ad13a0836d3e2dc579a055995cf6f2e1 133992 main/binary-arm64/rockchip-mpp-demos_1.0.11-2_arm64.deb
- c1379ed6eee8f4c5516bd03a68a4c3cb 2131756 main/binary-arm64/gstreamer1.0-plugins-base-dbgsym_1.24.10-1-rk_arm64.deb
  79468e1e719c438e2b7d0e7a3fedab7e 164272 main/binary-arm64/gstreamer1.0-plugins-ugly_1.24.10-1_arm64.deb
- a3315ad9a3be04900c7dd7efed795ce2 334212 main/binary-arm64/gstreamer1.0-rockchip1-dbgsym_1.14.4-3_arm64.deb
- e2c50a989f4a790db89551959c58b38d 71372 main/binary-arm64/gstreamer1.0-plugins-base-apps-dbgsym_1.24.10-1-rk_arm64.deb
- bd1d1b28b75f1888a3d030f900d83da1 112904 main/binary-arm64/gstreamer1.0-plugins-base-apps_1.24.10-1-rk_arm64.deb
+ ca2a6cfcf8ace02733b25a06b53276ea 180648 main/binary-arm64/gstreamer1.0-gl_1.24.10-2-rk_arm64.deb
+ 8c602ff004ca9eb4e5ccee40e9eb3eda 144240 main/binary-arm64/gstreamer1.0-wpe-dbgsym_1.24.10-3-rk_arm64.deb
  7d9f1ebae5ab6cb945df51c97d409e7e 114648 main/binary-arm64/gstreamer1.0-gtk3_1.24.10-1-rk_arm64.deb
  d96bd7f5ebd19cbfe385a203204be39f 6394916 main/binary-arm64/gstreamer1.0-plugins-good-dbgsym_1.24.10-1-rk_arm64.deb
  bd7817989be6a3510aed9342cf51828f 1377684 main/binary-arm64/libavformat-dev_7.1-3-rk_arm64.deb
- 52a37fbab293f47a42e3f7f94158ae11 854 Release.gpg
- 6297ca2fdf9342e0f8f764fbc159b039 385813 InRelease
+ 42707629eafc1ee723016e1c52130770 854 Release.gpg
+ 797a196c5ba1afaa0512bb7f526151ff 386153 InRelease
  77af95430627ffbaca795349b62e33ff 122936 base/binary-arm64/libfm4t64_1.3.2-4.1+b1_arm64.deb
  f491c6cb8e3d37720a8f339cfa90be07 2287300 base/binary-arm64/libqt5widgets5t64_5.15.15+dfsg-2_arm64.deb
  3684a9157999fb3823cba6c961af46a9 309316 base/binary-arm64/libnettle8t64_3.10-1+b1_arm64.deb
@@ -1301,10 +1301,12 @@ SHA1:
  6b528741c8334e5ac72d08c6c61f98328ec89bc1 11564 non-free/binary-arm64/libmali-bifrost-g52-g24p0-gbm-dbgsym_2.0-2_arm64.deb
  533ca356a96c84e18257cf10711685ce0bd140e7 12448372 non-free/binary-arm64/libmali-bifrost-g52-g13p0-gbm_2.0-2_arm64.deb
  3ad2e74e6a580eaa581570f836d12283c2de1dd5 11688016 non-free/binary-arm64/libmali-valhall-g610-g6p0-gbm_2.0-2_arm64.deb
+ a4beafef9ba2e3bdb6b1e0a4385e94f3d9c7eeee 200900 main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.24.10-3-rk_arm64.deb
  7b93acf04b6c25fc166afea011b47b9914469ad9 108744 main/binary-arm64/libv4l-dev_1.28.1-1-rk_arm64.deb
  5fccdccf61e9d42c52ef3651dd90d875e5c25176 147888 main/binary-arm64/gstreamer1.0-qt5_1.24.10-1-rk_arm64.deb
+ 3e8510d42041100280b9843732a3291c5d762899 79480 main/binary-arm64/libgstreamer-opencv1.0-0-dbgsym_1.24.10-3-rk_arm64.deb
  7e1f1cf18ee9da51309b504985306af1b2137cd9 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
- 9c0456daa27409666ab303c7af444b00bde8f011 255616 main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.24.10-2-rk_arm64.deb
+ 62129f57fce56e2b7473aa3218c0ecd18f1e1727 484436 main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.24.10-3-rk_arm64.deb
  6d7ffef5f9834d0753bb2593b6e1ed6a05085c16 52304 main/binary-arm64/libpostproc58-dbgsym_7.1-3-rk_arm64.deb
  edbd7295e9feaa2c389335d3dc8a5b36fbc9b6b4 166620 main/binary-arm64/libpixman-1-0-udeb_0.44.0-3-rk_arm64.udeb
  74e740199a31d365ba6449a1c835e02e26e6083c 134516 main/binary-arm64/gstreamer1.0-tools-dbgsym_1.24.10-2-rk_arm64.deb
@@ -1315,19 +1317,24 @@ SHA1:
  86cd473b3fdf982e64ef6bb17803d94992b73c6b 228748 main/binary-arm64/libdvbv5-dev_1.28.1-1-rk_arm64.deb
  b148a5b2d223c7f83b70b179db3d6d10d97883ac 19548 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.11-2_arm64.deb
  a55fa977ef93da36b45fce2ecb4027462b1853ac 80268 main/binary-arm64/librga2_2.10.4-1_arm64.deb
- 816c38bf036f8fbc4e1633189eb5730ff39794d6 156152 main/binary-arm64/gstreamer1.0-x_1.24.10-1-rk_arm64.deb
+ 42d104ef691fbdc28e8deb67760956d0ec8acaff 240696 main/binary-arm64/gstreamer1.0-x-dbgsym_1.24.10-2-rk_arm64.deb
+ 1a3bca5f8a299f95ff392f67a3b46f15174164d7 689980 main/binary-arm64/gstreamer1.0-plugins-base_1.24.10-2-rk_arm64.deb
+ fbd35ea96cda110492fce7995f2d86ea9f0dc157 71356 main/binary-arm64/gstreamer1.0-plugins-base-apps-dbgsym_1.24.10-2-rk_arm64.deb
  c39ca04631bcb49157c0ac4272357a8a356fcca0 54924 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.11-2_arm64.deb
+ 394d5e7613a7639bb5648d1b1151e5078859c3b5 65884 main/binary-arm64/gstreamer1.0-rockchip1_1.14.4-4_arm64.deb
  1c98308dfbb7d8447ab5ccc9fa0deb160dc09793 880324 main/binary-arm64/libpixman-1-0-dbgsym_0.44.0-3-rk_arm64.deb
  1efddc880d327866a86d31862e82e05c27fc0483 5243336 main/binary-arm64/v4l-utils-dbgsym_1.28.1-1-rk_arm64.deb
  fd4f16e3817d71ddb788182cbf6fe252d35d9a16 148368 main/binary-arm64/libv4lconvert0t64_1.28.1-1-rk_arm64.deb
  cf446310cb8f317d8aa21232ffbeec87761ad9e9 649132 main/binary-arm64/libswscale8-dbgsym_7.1-3-rk_arm64.deb
  0eae487f8f2ca3760d398f8a1e13db44ddabcf2e 5167072 main/binary-arm64/libgstreamer1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
- b3a03b62887e2b5b1f4695a2bfcbb761e90714e1 51973 main/binary-arm64/Packages.gz
- d8a8a671cda8ef1ccaa8cfb6391ac4c3ed3a63fb 906496 main/binary-arm64/libgstreamer-plugins-base1.0-0_1.24.10-1-rk_arm64.deb
- f03ef82c56912051ec870cf27078f13e1975a2f9 259964 main/binary-arm64/gstreamer1.0-opencv_1.24.10-2-rk_arm64.deb
+ b2ffc20c8dba182d41ab5ff18f507420da8153b2 52003 main/binary-arm64/Packages.gz
  cb803c4cdb4d263aae0e581cfc4919430d50d0fa 572288 main/binary-arm64/libgstreamer1.0-dev_1.24.10-2-rk_arm64.deb
  09225728e378b44da4e04f20c910583e4de98fef 1281176 main/binary-arm64/libgstreamer1.0-0_1.24.10-2-rk_arm64.deb
+ bb07602e94e701f8e75a9b891a73001a1d184246 255644 main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.24.10-3-rk_arm64.deb
  ff7a806369d821f9d5fdf872a10ffd5bfa320f89 5164 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.11-2_arm64.deb
+ 25d970876466c8d3146b5ea61532e6e446e7e0ca 261232 main/binary-arm64/libgstreamer-gl1.0-0_1.24.10-2-rk_arm64.deb
+ bf0c084b914122a11737fa3981ad1e76baac43e3 2516460 main/binary-arm64/libgstreamer-plugins-base1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
+ 5c1ba1a11195e6e2c8845051574c58c6316ba4b6 604164 main/binary-arm64/libgstreamer-gl1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
  eb8778401c26d57c76040bc5c5ac364f34d74471 1486144 main/binary-arm64/gstreamer1.0-qt6-dbgsym_1.24.10-1-rk_arm64.deb
  6070cbc6522538e558c67c7bd3e25adc1af35741 3549356 main/binary-arm64/libavformat-extra61-dbgsym_7.1-3-rk_arm64.deb
  e9ddc313f4a9e0d14a1d5697fff3b50da87c8261 149016 main/binary-arm64/libv4l-rkmpp-dbgsym_1.8.0-1_arm64.deb
@@ -1342,10 +1349,7 @@ SHA1:
  96a4ce46c91ecc534bc582b70e7b71d449bd2a29 122380 main/binary-arm64/libavdevice-dev_7.1-3-rk_arm64.deb
  f93392978b30a873a45488457e3a73f07e81ed64 7256 main/binary-arm64/rockchip-config_1.0.0-1_all.deb
  397a6d9dfbefc1bd3c8e9fa1fb3259890027e200 283036 main/binary-arm64/gstreamer1.0-libav-dbgsym_1.24.10-1-rk_arm64.deb
- 7e35a0cc1d0183d33f933e2b7da2719f1ed007d9 689780 main/binary-arm64/gstreamer1.0-plugins-base_1.24.10-1-rk_arm64.deb
- 63d0aadd07063e664104ac41e1e7d99b3c9c78c6 240668 main/binary-arm64/gstreamer1.0-x-dbgsym_1.24.10-1-rk_arm64.deb
- e43584bd83264b061e8c70a820091c413b5819be 874552 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.24.10-2-rk_arm64.deb
- 25d44fa630bd3688d4e41728bc90fe4807d111b9 197520 main/binary-arm64/libgstreamer-opencv1.0-0_1.24.10-2-rk_arm64.deb
+ 7dfca6c2782d105d910dcc80573b816e637be7b8 156484 main/binary-arm64/gstreamer1.0-x_1.24.10-2-rk_arm64.deb
  7b1993d841f1d222ce2b5af78862cb3304d42377 6072288 main/binary-arm64/libavcodec-dev_7.1-3-rk_arm64.deb
  092a6d409dea05ce63ee60b8d116df24c8fec8c1 5016 main/binary-arm64/buzztv-ota-tools_1.0.18-1_all.deb
  fdfd844cbb88637e5da5ba353b6deb4e32131df0 96980 main/binary-arm64/libswresample-dev_7.1-3-rk_arm64.deb
@@ -1353,71 +1357,69 @@ SHA1:
  1f917490ddc6a42267a71d5b6dc8a082fa6cf4ad 12273388 main/binary-arm64/buzztv-dsw_1.0.15+18_arm64.deb
  e629192434774ed01cc518245e7fd4c1b7a1032a 154156 main/binary-arm64/ir-keytable_1.28.1-1-rk_arm64.deb
  492bc910e0a79e30ccd80eb99db7b747aafa3eb3 98304 main/binary-arm64/gstreamer1.0-libav_1.24.10-1-rk_arm64.deb
- b139003ef48bb53b42cff59764b162543f22b6cd 108876 main/binary-arm64/gstreamer1.0-alsa-dbgsym_1.24.10-1-rk_arm64.deb
+ 0414aea530f96df2776f43751cbb9986ac388b8a 108872 main/binary-arm64/gstreamer1.0-alsa-dbgsym_1.24.10-2-rk_arm64.deb
  927879a7ad7730c5c6860f1c82515f27dbdb8419 6830660 main/binary-arm64/libavfilter10-dbgsym_7.1-3-rk_arm64.deb
- 2735bb968fdac8d95e40548b0b09a2deb93916b4 2927780 main/binary-arm64/libgstreamer-plugins-bad1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
  689d778d59c43ad20877859a84fbc5f099e2820e 86156 main/binary-arm64/libv4l2rds0t64_1.28.1-1-rk_arm64.deb
  b9aa3a4f46af656f5eed0e70d2acdf69bed66c8a 220716 main/binary-arm64/libswscale-dev_7.1-3-rk_arm64.deb
  f5afc05bd2be64256b59881777f14d62272e21e9 156324 main/binary-arm64/gstreamer1.0-qt6_1.24.10-1-rk_arm64.deb
  e353bb461ed2d43e5f8d022a1d792f80f9cf227b 413960 main/binary-arm64/libdvbv5-doc_1.28.1-1-rk_all.deb
- 9f3fa9eb6a0ef6cb61beb6e841866dfedfda1698 554152 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.10-1-rk_arm64.deb
  4842afeced7629f1e420723cace9a181bea2c551 97044 main/binary-arm64/gstreamer1.0-pulseaudio_1.24.10-1-rk_arm64.deb
  9633862bdc4db4df50f259d79fe0c1008a44c545 1120616 main/binary-arm64/libavformat-extra61_7.1-3-rk_arm64.deb
  b7b241ff8e12b4a902a6d8baaa7c55c5d419e5a6 47388 main/binary-arm64/librockchip-vpu0_1.0.11-2_arm64.deb
- 000c4c0c9b9eb82830c0625804849f65a9ff503b 261232 main/binary-arm64/libgstreamer-gl1.0-0_1.24.10-1-rk_arm64.deb
  9689142172c937c9be8315a4821e4fed6fd586e4 6835076 main/binary-arm64/libavfilter-extra10-dbgsym_7.1-3-rk_arm64.deb
  ac648f7a009558fc4e1c2dada11fd2c5633a9a27 102876 main/binary-arm64/gstreamer1.0-tools_1.24.10-2-rk_arm64.deb
  b898a36dfa8d19c94d388f02ba2abdccbe6ed662 538108 main/binary-arm64/libavutil-dev_7.1-3-rk_arm64.deb
  187db66710fe674be6d2168c4df2f406aab20e47 186304 main/binary-arm64/qvidcap_1.28.1-1-rk_arm64.deb
+ 228c66bc6c0d6fb0726db278d93aa532c44d29aa 259988 main/binary-arm64/gstreamer1.0-opencv_1.24.10-3-rk_arm64.deb
  6906f8d2abe8242cbd1a5431c8f56bec290a80cf 98692 main/binary-arm64/libswresample5-dbgsym_7.1-3-rk_arm64.deb
  eab5719753a7abca73dafd4c1c9837b5e0ea891b 1091848 main/binary-arm64/qvidcap-dbgsym_1.28.1-1-rk_arm64.deb
- 0ef643b6e82392aa3c556883500317b8d93fc7de 23392 main/binary-arm64/gstreamer1.0-plugins-bad-apps-dbgsym_1.24.10-2-rk_arm64.deb
+ dbe04bd8267d6242ecead2981e1a9496954dd5b6 339952 main/binary-arm64/gstreamer1.0-rockchip1-dbgsym_1.14.4-4_arm64.deb
  04e7c587c0e4990402e30825cff773aa02b95996 44364 main/binary-arm64/libv4l-rkmpp_1.8.0-1_arm64.deb
  e89d7cb94e7f3de744b80257c070aedb8c292256 1118256 main/binary-arm64/libavformat61_7.1-3-rk_arm64.deb
  00bf09189c3ea336842fa3addd34873931a77d27 21662644 main/binary-arm64/libavcodec-extra61-dbgsym_7.1-3-rk_arm64.deb
  70dca365c0cafa15cea33f4bf890471bd6198ca7 65620 main/binary-arm64/librockchip-mpp-dev_1.0.11-2_arm64.deb
  27538952e693bbb90c276913ccc5245e714e7fea 113648 main/binary-arm64/libv4l-0t64_1.28.1-1-rk_arm64.deb
- 08aef161527ffc245f6e77c68074a5f738446fda 329296 main/binary-arm64/gstreamer1.0-gl-dbgsym_1.24.10-1-rk_arm64.deb
+ bb9538047d95cf54b6ff7982e7e1b8f757b5b40c 218612 main/binary-arm64/gstreamer1.0-wpe_1.24.10-3-rk_arm64.deb
  213fcba994a90549ea3d27ea3dc1ef437d2394a0 34178748 main/binary-arm64/cobalt_1.0.2-rk.deb
+ 5f7a00fd94c9c0fa7e97dd789ff678b468ee6804 178000 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.10-2-rk_arm64.deb
  3c9dace1803b13c5c7bc9cb43f60465f2b3e3deb 198404 main/binary-arm64/libswscale8_7.1-3-rk_arm64.deb
  9d30fc4cad4548727c1afb811b92db20771743da 91412 main/binary-arm64/dvb-tools-dbgsym_1.28.1-1-rk_arm64.deb
  8bbfb35ae186cbeaeb6cdef8b704c591db896602 5396992 main/binary-arm64/libavcodec61_7.1-3-rk_arm64.deb
  e37f6c7bb067fdc4a37aae3ed397d6950e2c893c 905992 main/binary-arm64/librockchip-mpp1_1.0.11-2_arm64.deb
  c826547eba2ae41c3b6cf1e6f1a531d5cdf78d78 846452 main/binary-arm64/ffmpeg-dbgsym_7.1-3-rk_arm64.deb
- e915f4a687afcdcf14cf4a4993addfaafacf92ab 484276 main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.24.10-2-rk_arm64.deb
  fd2fbb52b5386acd13b903a4dbba2190bac78556 48368 main/binary-arm64/libavcodec-extra_7.1-3-rk_arm64.deb
+ 80fe4c762f9a98eeb2d4a8e024fee566f32c9943 2928068 main/binary-arm64/libgstreamer-plugins-bad1.0-0-dbgsym_1.24.10-3-rk_arm64.deb
+ 2aeaa6e4d47c8315d88fe5b40be1f77a7a9e44bf 115428 main/binary-arm64/gstreamer1.0-alsa_1.24.10-2-rk_arm64.deb
  577a423526a02338341c5535c61ffc7191eb5f6a 3539008 main/binary-arm64/libavformat61-dbgsym_7.1-3-rk_arm64.deb
+ a52718c0d1b6908b7f0c20b3bc1c484c642d8aef 906372 main/binary-arm64/libgstreamer-plugins-base1.0-0_1.24.10-2-rk_arm64.deb
+ e22ac03fc5cc9d226be5ba14276ecfdffc633876 10459060 main/binary-arm64/gstreamer1.0-plugins-bad-dbgsym_1.24.10-3-rk_arm64.deb
  87f4259634d31365b6d035a7fbb4d78c9c7881fb 2045376 main/binary-arm64/gstreamer1.0-plugins-good_1.24.10-1-rk_arm64.deb
  9766c5bc12e592c90eb606d6af804e45c75fb020 1420240 main/binary-arm64/gstreamer1.0-qt5-dbgsym_1.24.10-1-rk_arm64.deb
  5194c00885281eeaa1669dbdb4276f9ab641432b 24356 main/binary-arm64/librga-dev_2.10.4-1_arm64.deb
+ ee6a5c6c8180a9d730acbcd9af22be8ee3d547fd 554696 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.10-2-rk_arm64.deb
  b3e76200c565ca3dc8cb7e663498ab9100875049 1009804 main/binary-arm64/libavutil59-dbgsym_7.1-3-rk_arm64.deb
  a4b14cb9d72367028847644cbb2212087873cad5 2003292 main/binary-arm64/libavfilter-dev_7.1-3-rk_arm64.deb
- 5b38cacdd9705ad597832a4ca4e3a2c22da5746e 2785844 main/binary-arm64/gstreamer1.0-plugins-bad_1.24.10-2-rk_arm64.deb
- dac1c47cf00f8976e367d7cdd7c9eaa205a2f76b 218812 main/binary-arm64/gstreamer1.0-wpe_1.24.10-2-rk_arm64.deb
  c4dcf25f36abf2699c135a7c7bb574382b640f7d 48368 main/binary-arm64/libavfilter-extra_7.1-3-rk_arm64.deb
- 5cb627aa46fb09b19d4a441799690a23d084823e 236867 main/binary-arm64/Packages
+ cf8c60215d24402c0c6a76729b50f406b3b5e46d 236755 main/binary-arm64/Packages
  9380c9bcdeb08f8cacc7021d83f99ad9ea0e1054 107420 main/binary-arm64/libavdevice61_7.1-3-rk_arm64.deb
- af93d502d8032fe2fa448aef846c19f68a6593ab 115584 main/binary-arm64/gstreamer1.0-alsa_1.24.10-1-rk_arm64.deb
  ffdbc684faca54470d254c096bf5ea79dca86fcc 77768 main/binary-arm64/libv4l-0t64-dbgsym_1.28.1-1-rk_arm64.deb
+ 4bd267e83f5c8277d149dbca79f3b46f18ff969e 329336 main/binary-arm64/gstreamer1.0-gl-dbgsym_1.24.10-2-rk_arm64.deb
  bd4066fb72a967e96f1f31ceda7b8a3ec3ae4e15 378504 main/binary-arm64/libavutil59_7.1-3-rk_arm64.deb
- 8de9b68c9757bad0d7690b73d74b36e5a4e41a81 177888 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.10-1-rk_arm64.deb
  4f11a2ce55edadd102f8e9f712aa3644ce8a6804 86936 main/binary-arm64/gstreamer1.0-gtk3-dbgsym_1.24.10-1-rk_arm64.deb
  7f10e65a853dd07826ac6c690dc04e32fd8e304b 3657416 main/binary-arm64/libavfilter10_7.1-3-rk_arm64.deb
- 462a04307732e3c376bcb7aaeb1b0b4e9466fbc9 180640 main/binary-arm64/gstreamer1.0-gl_1.24.10-1-rk_arm64.deb
- c833e06d25ad13fffe1cb0e23cb827806802ca27 10458524 main/binary-arm64/gstreamer1.0-plugins-bad-dbgsym_1.24.10-2-rk_arm64.deb
- a0f9990a377e985a82a6a9ca29a6f4ab10989a21 79476 main/binary-arm64/libgstreamer-opencv1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
+ 9a646d1e6a428a30b4f6b5f11b00c1df30fda453 197576 main/binary-arm64/libgstreamer-opencv1.0-0_1.24.10-3-rk_arm64.deb
+ f2c2d651b4e74a26ee7b04478ef3c878bbe63786 113076 main/binary-arm64/gstreamer1.0-plugins-base-apps_1.24.10-2-rk_arm64.deb
+ c1b37b652d15a4ca021c0e7ed04a3d97ea587260 2787540 main/binary-arm64/gstreamer1.0-plugins-bad_1.24.10-3-rk_arm64.deb
+ e94bb2d0910565d73bfae8360e61fd5d4d3e6cc3 2131136 main/binary-arm64/gstreamer1.0-plugins-base-dbgsym_1.24.10-2-rk_arm64.deb
  22eef0a9ab49a086096fd3d813bda11290c4b8db 222024 main/binary-arm64/libavdevice61-dbgsym_7.1-3-rk_arm64.deb
  cee30082f1385582906ba5cf88a33bce0d311f6a 119004 main/binary-arm64/gir1.2-gstreamer-1.0_1.24.10-2-rk_arm64.deb
+ 00cb2aa5a7d5ab048b258f2b463fcc98139a6c90 23400 main/binary-arm64/gstreamer1.0-plugins-bad-apps-dbgsym_1.24.10-3-rk_arm64.deb
  9c0d8f313d76984fc6d10b309a18f4c42b702074 189836 main/binary-arm64/qv4l2_1.28.1-1-rk_arm64.deb
  7c4899363686af8d4047f6acc52aad6ae5c325f0 21641136 main/binary-arm64/libavcodec61-dbgsym_7.1-3-rk_arm64.deb
- e5d512698c3a8138f1d187faf193a012bcbed1f0 1007364 main/binary-arm64/gstreamer1.0-opencv-dbgsym_1.24.10-2-rk_arm64.deb
+ 991fb763385033498f5fc4e39ce2ced1c1ac1791 1007372 main/binary-arm64/gstreamer1.0-opencv-dbgsym_1.24.10-3-rk_arm64.deb
  792a238bdca52269b2660d0254fc11cacdee4ab1 3660344 main/binary-arm64/libavfilter-extra10_7.1-3-rk_arm64.deb
- 9f581ca75feeb854375e8c28f003651b83672b6c 63936 main/binary-arm64/gstreamer1.0-rockchip1_1.14.4-3_arm64.deb
  fe1628b8e6252f55a51cbccdc30d9cf0cbfd6eda 233268 main/binary-arm64/libdvbv5-0t64-dbgsym_1.28.1-1-rk_arm64.deb
- 0d8c9b2e2e3d40a37155e72af04db58f077c3123 144228 main/binary-arm64/gstreamer1.0-wpe-dbgsym_1.24.10-2-rk_arm64.deb
- c975da6aa19c8a32e5df36e3a4000fe543bd3320 2517012 main/binary-arm64/libgstreamer-plugins-base1.0-0-dbgsym_1.24.10-1-rk_arm64.deb
- 78303c939c9f0b9d8678399c49465e3c4b974214 604112 main/binary-arm64/libgstreamer-gl1.0-0-dbgsym_1.24.10-1-rk_arm64.deb
- bb9c4c75e50ceb67d5f74f3d0daa714d597d5054 200860 main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.24.10-2-rk_arm64.deb
+ 70a3dbe809b3fc8c1954a560e871f21ebbe7b133 874740 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.24.10-3-rk_arm64.deb
  5d73768c7a0497ce5a5839a91c952c5dfb187828 1978600 main/binary-arm64/ffmpeg_7.1-3-rk_arm64.deb
  309e1cc1f7aeb4917d75895f69c57586aa63ea00 2314816 main/binary-arm64/ffmpeg-doc_7.1-3-rk_all.deb
  d7912fff8a532c6901dd01f1abf2e9da4ad7d45b 21748 main/binary-arm64/libv4l2rds0t64-dbgsym_1.28.1-1-rk_arm64.deb
@@ -1426,16 +1428,14 @@ SHA1:
  0cc8970d3579d60e97c57496a1892e779f9e66c2 13956 main/binary-arm64/libgstreamer1.0-dev-dbgsym_1.24.10-2-rk_arm64.deb
  fb0cf6da74a1ebf2e974833e5b892ad952f0f73f 120632 main/binary-arm64/dvb-tools_1.28.1-1-rk_arm64.deb
  20e034893a90fe37120cfc6888a9975a66ae209d 133992 main/binary-arm64/rockchip-mpp-demos_1.0.11-2_arm64.deb
- 6e888ce3a048e13fa3ef6a772e1b180455fbcb02 2131756 main/binary-arm64/gstreamer1.0-plugins-base-dbgsym_1.24.10-1-rk_arm64.deb
  aaba4c137ff740c3a380614340d7007b79b896b8 164272 main/binary-arm64/gstreamer1.0-plugins-ugly_1.24.10-1_arm64.deb
- 6500573c24fc1de53f0374cb9fab6c5100b86aca 334212 main/binary-arm64/gstreamer1.0-rockchip1-dbgsym_1.14.4-3_arm64.deb
- ba0a319444199446f07e1f76cf067f7b1bcea3b3 71372 main/binary-arm64/gstreamer1.0-plugins-base-apps-dbgsym_1.24.10-1-rk_arm64.deb
- 293512322a90b1b15be798a7e4f5f5d80b571cc2 112904 main/binary-arm64/gstreamer1.0-plugins-base-apps_1.24.10-1-rk_arm64.deb
+ 4351e527f439107c8d1c613e50c60fa161d78a35 180648 main/binary-arm64/gstreamer1.0-gl_1.24.10-2-rk_arm64.deb
+ 5e77faaa646cd3706abe9bd144c70779cf01e153 144240 main/binary-arm64/gstreamer1.0-wpe-dbgsym_1.24.10-3-rk_arm64.deb
  4d11f7a5a5bd2e6361b196364b6b84de3aeabc64 114648 main/binary-arm64/gstreamer1.0-gtk3_1.24.10-1-rk_arm64.deb
  b9eb6908be02a4a62ba3cb88049d2dab09d3b10b 6394916 main/binary-arm64/gstreamer1.0-plugins-good-dbgsym_1.24.10-1-rk_arm64.deb
  74aa9ce0db53e7e4c995453a85285f082ed8f756 1377684 main/binary-arm64/libavformat-dev_7.1-3-rk_arm64.deb
- 5242d1a11e91c74471e347f03e785fbc10bf8022 854 Release.gpg
- 115c91e3927fd3b7a30f81f76efb802e44646448 385813 InRelease
+ 799eb4bb14e7be246f1a1ecad022fc389303b67f 854 Release.gpg
+ b85fb948660097833f882cffee6bed3ab2ed77bd 386153 InRelease
  745c92b443d9b902a1d627b03c841cc99edf7862 122936 base/binary-arm64/libfm4t64_1.3.2-4.1+b1_arm64.deb
  39297ed427b9bc16442db7f0efd6971172779895 2287300 base/binary-arm64/libqt5widgets5t64_5.15.15+dfsg-2_arm64.deb
  dded0e16e1e02cc8b83461a88361d548537eff61 309316 base/binary-arm64/libnettle8t64_3.10-1+b1_arm64.deb
@@ -2472,10 +2472,12 @@ SHA256:
  9b11fec3eae00b2c17efa77ec3cdb6be0d9ab5f1c77cbe1273e0eeabe0477ebf 11564 non-free/binary-arm64/libmali-bifrost-g52-g24p0-gbm-dbgsym_2.0-2_arm64.deb
  23d01f04ab969f6b76a4e75da7d3a7ae54f775af161b2065e28bac554416b7cf 12448372 non-free/binary-arm64/libmali-bifrost-g52-g13p0-gbm_2.0-2_arm64.deb
  4bfda76137082fb59bcd7c499a83495fc763f9cf49cf4b76928bf32e61e049ac 11688016 non-free/binary-arm64/libmali-valhall-g610-g6p0-gbm_2.0-2_arm64.deb
+ edb30bfa468560a75822c5424f39554ff91f45b9f8596a9e0ef40387c127008a 200900 main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.24.10-3-rk_arm64.deb
  df711d0841a32d6acca04d14c76cdfeb31b76d776a29a32ed3eed8337940058a 108744 main/binary-arm64/libv4l-dev_1.28.1-1-rk_arm64.deb
  7eef24d84158d8275924a1e4c81bd8a1090945c343e9d52d7008769daac72c1d 147888 main/binary-arm64/gstreamer1.0-qt5_1.24.10-1-rk_arm64.deb
+ 5b12e93a439e108b056e29eba927c54ae183a51c625431e55350953841a5c091 79480 main/binary-arm64/libgstreamer-opencv1.0-0-dbgsym_1.24.10-3-rk_arm64.deb
  98e7de9db3bf181d08bc67e647bcfc71349c8014e387289c08e54e5c55d82f37 1081438 main/binary-arm64/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb
- 3bb5400a00216f8ed6a398f7b899e37e9564a0b90443e20d1af81d875b1866a4 255616 main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.24.10-2-rk_arm64.deb
+ b7d0e07e0857390969a6edcef8921a395feb1f970bd17931a7e8075667593052 484436 main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.24.10-3-rk_arm64.deb
  b67598863866d626a2206efa029f465c461a6e1f96b55a62e58c5c216520e419 52304 main/binary-arm64/libpostproc58-dbgsym_7.1-3-rk_arm64.deb
  fbf7c7295c7d9bca5793b5fb6cc058edc5ed875390e6c717cffb632b1cabd5b7 166620 main/binary-arm64/libpixman-1-0-udeb_0.44.0-3-rk_arm64.udeb
  cb33d40db22da5c3c945b62687a166b5f2ea2f4dd1a94fdf6937fbf95aeb1143 134516 main/binary-arm64/gstreamer1.0-tools-dbgsym_1.24.10-2-rk_arm64.deb
@@ -2486,19 +2488,24 @@ SHA256:
  6d10fcbec1f5a91ab0dca170bf5233bb9bdac2cf19a81bc9f9deda459c845ac2 228748 main/binary-arm64/libdvbv5-dev_1.28.1-1-rk_arm64.deb
  203df454697a86113c0d1034e400763739cd7fec1cf7b5b40c439b03d83e838c 19548 main/binary-arm64/rockchip-mpp-demos-dbgsym_1.0.11-2_arm64.deb
  d62012736e8d229d3a3940c75e29b78ec9bad3265830954bd6f2121b2b9953f6 80268 main/binary-arm64/librga2_2.10.4-1_arm64.deb
- 7d5a60a8c34937350309741ed2c796b9aa84251b2368e6d1f6823861588c88e0 156152 main/binary-arm64/gstreamer1.0-x_1.24.10-1-rk_arm64.deb
+ 682e1163a308a44bf48c5e2082addca3155b47c50df3cec5f9551387df92b189 240696 main/binary-arm64/gstreamer1.0-x-dbgsym_1.24.10-2-rk_arm64.deb
+ dd4b29b804da8ddadb622745a26598b5251eaabcc8be7d85e26ba01ab9caa58c 689980 main/binary-arm64/gstreamer1.0-plugins-base_1.24.10-2-rk_arm64.deb
+ bb3ccede205f9565135f2f4f0f8da3f56cc01f4836db5e464a6b88d70764ff5e 71356 main/binary-arm64/gstreamer1.0-plugins-base-apps-dbgsym_1.24.10-2-rk_arm64.deb
  150fd16ece09cb1a14bda71f36dddd475fca56b7155689ac01005c0da3201203 54924 main/binary-arm64/librockchip-mpp1-dbgsym_1.0.11-2_arm64.deb
+ 3fd455e44523919217e95eb8fe7c8d22d010fd4868083f210ccc1ac4b1893d80 65884 main/binary-arm64/gstreamer1.0-rockchip1_1.14.4-4_arm64.deb
  58faf3d76d734090c748c2dfd7e427b76a885921bafac16ca91c390c7bb32481 880324 main/binary-arm64/libpixman-1-0-dbgsym_0.44.0-3-rk_arm64.deb
  f0ca530de33d98437395f12c9e67be5d456b2a6c20567f45a06052fc41cc771c 5243336 main/binary-arm64/v4l-utils-dbgsym_1.28.1-1-rk_arm64.deb
  91525ff1886a802bb9c6b41b2ec8996fce215ac48458b908a962b21ab9e7ac15 148368 main/binary-arm64/libv4lconvert0t64_1.28.1-1-rk_arm64.deb
  e7fcdc8b29e29ddae5cc2dbf63df07d78d0bc795fa869c8a3d5adbaf23642534 649132 main/binary-arm64/libswscale8-dbgsym_7.1-3-rk_arm64.deb
  656c856b506f33836d87c8b29b96751b3812571f41d0c309ed5ee96045e3b530 5167072 main/binary-arm64/libgstreamer1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
- acb193a31bb5869874932022d934f78c4767ab4af71c965f2542f8ec99cdd361 51973 main/binary-arm64/Packages.gz
- 8a8a3c55e15cb68839c9fde505ff61eed867bc6d0e2c9c234c761f18b5f47d58 906496 main/binary-arm64/libgstreamer-plugins-base1.0-0_1.24.10-1-rk_arm64.deb
- 6131272c5927a13439502ee61ee2a891e49cd187f4b39819749f7e2e13d26787 259964 main/binary-arm64/gstreamer1.0-opencv_1.24.10-2-rk_arm64.deb
+ efdb5b9bb4d0e2c2d44ee0d992e78709fd30420493c8928db118df5c354c7503 52003 main/binary-arm64/Packages.gz
  a74804a45a5c2470e3065f05be40653bf345540c884fee8953da7696089e1ea8 572288 main/binary-arm64/libgstreamer1.0-dev_1.24.10-2-rk_arm64.deb
  4a2cadf42dd62f2418ecc47c98a82870617a8b81c4504c757977911e79c5af67 1281176 main/binary-arm64/libgstreamer1.0-0_1.24.10-2-rk_arm64.deb
+ 0840e8fe5f7e8803a8e9522f07a9098c36f4f7777b5d13bef07f25b0056e3053 255644 main/binary-arm64/gir1.2-gst-plugins-bad-1.0_1.24.10-3-rk_arm64.deb
  6a11eadd4efd6873a1c71953ae9540c71ab7244fcd0251ecbc8dbed2ff224b45 5164 main/binary-arm64/librockchip-vpu0-dbgsym_1.0.11-2_arm64.deb
+ e9fd5dbe412beaf986ece6dcb119eea1e398eceb3fbb6cbde8f5dada7abff371 261232 main/binary-arm64/libgstreamer-gl1.0-0_1.24.10-2-rk_arm64.deb
+ 0078392637368a3d8a9c947d6c5c8427fab303aa70f3d69d03a5234842ab9abe 2516460 main/binary-arm64/libgstreamer-plugins-base1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
+ 6926c75b5213f8621c299be878bd1289a1299cebcc257d874b9c5c5501cc1030 604164 main/binary-arm64/libgstreamer-gl1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
  0c0563abedac2d502978381e423373123928824f52021144188fd4b7bdaaa05e 1486144 main/binary-arm64/gstreamer1.0-qt6-dbgsym_1.24.10-1-rk_arm64.deb
  178c2b820e6c19aad1c3b2d7115a0bd09b0a5b47c0909f80e2163f07de2a8a8b 3549356 main/binary-arm64/libavformat-extra61-dbgsym_7.1-3-rk_arm64.deb
  94c45c821edff76e865ec5c9a6c72879f541550aec16e5a5c2aa87944b56e003 149016 main/binary-arm64/libv4l-rkmpp-dbgsym_1.8.0-1_arm64.deb
@@ -2513,10 +2520,7 @@ SHA256:
  6e811499775ab6b86e61f5e79aba7b167a046c40209356822295026f2befeafd 122380 main/binary-arm64/libavdevice-dev_7.1-3-rk_arm64.deb
  cd9c4c6b12ec25535364d7db14a938add29004f4b6f5e0334c07f21ce7b45fee 7256 main/binary-arm64/rockchip-config_1.0.0-1_all.deb
  7f6921656cf247b36f83c1564b48f2b43cdfd9c7f134bac02713c24b252125df 283036 main/binary-arm64/gstreamer1.0-libav-dbgsym_1.24.10-1-rk_arm64.deb
- 812599f223f793ba628286e380169d3016ea5d94b6c8f8294d82037f2f8ab5f0 689780 main/binary-arm64/gstreamer1.0-plugins-base_1.24.10-1-rk_arm64.deb
- b03745cfd4faab77079037d92085c8f2d403e05932865ed40394d289c9ffae63 240668 main/binary-arm64/gstreamer1.0-x-dbgsym_1.24.10-1-rk_arm64.deb
- 884b2b7d256e2c52eab9e637c513d12100eab8662a79f712c3ddae7f48834378 874552 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.24.10-2-rk_arm64.deb
- a7e4e56f24e5d591b0b241c96716d11fe69752ff6b151254ebff7edb486258c3 197520 main/binary-arm64/libgstreamer-opencv1.0-0_1.24.10-2-rk_arm64.deb
+ 1cbaa8b639067126030ed11296654a80fefb74bb589de21b671fce3629ca29fe 156484 main/binary-arm64/gstreamer1.0-x_1.24.10-2-rk_arm64.deb
  e095ddb84288e10a471e2286f3271c75a4649a34f8414cb557324bb5e1a42569 6072288 main/binary-arm64/libavcodec-dev_7.1-3-rk_arm64.deb
  be2088942a9cfb6b8a50777d11b94fecd936961b3e2fc61999c05f66de057a4c 5016 main/binary-arm64/buzztv-ota-tools_1.0.18-1_all.deb
  54f6611c829cce49b5132a9696e315b7e5c37ddf0fe3466a8628e4b645feab89 96980 main/binary-arm64/libswresample-dev_7.1-3-rk_arm64.deb
@@ -2524,71 +2528,69 @@ SHA256:
  d434933d3bc1fc86c39b9597ad3b8cb9be916a953cde1d7bf405b54fa488e1cd 12273388 main/binary-arm64/buzztv-dsw_1.0.15+18_arm64.deb
  b7c07c2eb40600230f36879f70ecfe2d718b37e8506a2d29d76445eb5c113bf9 154156 main/binary-arm64/ir-keytable_1.28.1-1-rk_arm64.deb
  dce66acf37f27fae76030b6634e34cb4c0e99c940dd89adc8c06e8e6f1b5bf3b 98304 main/binary-arm64/gstreamer1.0-libav_1.24.10-1-rk_arm64.deb
- 3f98843d926dddeaee55f2f866640300542f1cfc0665ea07328669d039d4a9ae 108876 main/binary-arm64/gstreamer1.0-alsa-dbgsym_1.24.10-1-rk_arm64.deb
+ 3b812442b6c3c725aaf09dadd25deaf271e905faf1043364fa7eedb5b44b0738 108872 main/binary-arm64/gstreamer1.0-alsa-dbgsym_1.24.10-2-rk_arm64.deb
  ac17618cfb86b96832cbdc6db176e7b0e33e2c932b12166b0c8d26491b555d80 6830660 main/binary-arm64/libavfilter10-dbgsym_7.1-3-rk_arm64.deb
- fdbb1385558b2591e82c8bc0f078d615d2fa66e66338f26134a02885ed65fedc 2927780 main/binary-arm64/libgstreamer-plugins-bad1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
  b9363042a1205bcd484fe41636a19d0b55dc944b9a74586ec4e05cec4a059aac 86156 main/binary-arm64/libv4l2rds0t64_1.28.1-1-rk_arm64.deb
  624e7cb2af1c07526ae843eafddbcd0f963e29b4affb6532af63b75d443daeec 220716 main/binary-arm64/libswscale-dev_7.1-3-rk_arm64.deb
  92e3547acbb10ac23be223001dc37678afa4737dcfb70a1f41ed2a195bd2a2d6 156324 main/binary-arm64/gstreamer1.0-qt6_1.24.10-1-rk_arm64.deb
  49666f3524237df102e0e3f38dae7712fd30f67d9d4e64ef3ec62379e84285cc 413960 main/binary-arm64/libdvbv5-doc_1.28.1-1-rk_all.deb
- c0762ec3d78a3ecd922ebb7d2f038e32fe5d90473e20774b622fe2434301a19e 554152 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.10-1-rk_arm64.deb
  54855000905e27f46af0953b387138953f7b53d2eae5d10acd4cfad6c9f533ff 97044 main/binary-arm64/gstreamer1.0-pulseaudio_1.24.10-1-rk_arm64.deb
  399ffae4748bf89ae7b06f9648614e90b39888193acb77d5d3e26559c43d6440 1120616 main/binary-arm64/libavformat-extra61_7.1-3-rk_arm64.deb
  591a89edcc52ed7dc51d30a4f1be96396e9452327fc9e5ee59f69771c5e7d65a 47388 main/binary-arm64/librockchip-vpu0_1.0.11-2_arm64.deb
- a83e8631542b753b61d4eaf72f55737946311ae86ff76da3746415e10a24d1f1 261232 main/binary-arm64/libgstreamer-gl1.0-0_1.24.10-1-rk_arm64.deb
  02542628396cafeaaf1a7e01e36cf25915d4abb27de5eeecb138859ff2330a10 6835076 main/binary-arm64/libavfilter-extra10-dbgsym_7.1-3-rk_arm64.deb
  6b2828cc3609b9b93a5b1c7a4c713cf41afb50f7beb75af0ea734eb1df0d3715 102876 main/binary-arm64/gstreamer1.0-tools_1.24.10-2-rk_arm64.deb
  e2cc18e68eac04de90e6497584ae6ea9f1711b2b1cc967341086f0b4c168ce9c 538108 main/binary-arm64/libavutil-dev_7.1-3-rk_arm64.deb
  550704bfb6416611498b7a463daa70a81db7c7cb99e163df4e627fdac2d008de 186304 main/binary-arm64/qvidcap_1.28.1-1-rk_arm64.deb
+ bb230e6a8e4225c97c9147e9eec743ba8bc9f218e1ccc0b7a4f3721ddec77d0f 259988 main/binary-arm64/gstreamer1.0-opencv_1.24.10-3-rk_arm64.deb
  66ea0bc00a6f301b8cb3525ac0197a14fe42d858a44a78d9942306183a000617 98692 main/binary-arm64/libswresample5-dbgsym_7.1-3-rk_arm64.deb
  a4589cf5b5a986cdb0b6c743f8ada7ff058898460593c9988666a771e1b86996 1091848 main/binary-arm64/qvidcap-dbgsym_1.28.1-1-rk_arm64.deb
- a1f2e259b5933971f489fffd66a3650e38fb01e1f3bb911f8227512197846d36 23392 main/binary-arm64/gstreamer1.0-plugins-bad-apps-dbgsym_1.24.10-2-rk_arm64.deb
+ 82d37bd86d1e09e87a39cc37cce9cd2a15586b4ed50bffcc4e6b9082e2f7d2ea 339952 main/binary-arm64/gstreamer1.0-rockchip1-dbgsym_1.14.4-4_arm64.deb
  b68940373fb40c9ca23e3ddce168480cb042497398f1ea0be9f3d62cf6fe031a 44364 main/binary-arm64/libv4l-rkmpp_1.8.0-1_arm64.deb
  b479908306057ff12b707be6d6237e9faef6ca38e970dbf8a00c24caade2a511 1118256 main/binary-arm64/libavformat61_7.1-3-rk_arm64.deb
  d29852e609b22ca2c793bde2c4b6472638a349ef204a6b05c54f102efbb2a5d9 21662644 main/binary-arm64/libavcodec-extra61-dbgsym_7.1-3-rk_arm64.deb
  8731a8d7cc5dfb1e7c047c6c99e3ea26518360528830e69792bb03357d5214a6 65620 main/binary-arm64/librockchip-mpp-dev_1.0.11-2_arm64.deb
  99b10a63e894d929a32675ebc093b9d1918988183f06cdfce592fa909ef9b73c 113648 main/binary-arm64/libv4l-0t64_1.28.1-1-rk_arm64.deb
- 306ec0a2d4df401f9017ae075985313dfcf689394f0ebc2d238353626da5eade 329296 main/binary-arm64/gstreamer1.0-gl-dbgsym_1.24.10-1-rk_arm64.deb
+ 4cc8ea354f6e17645aa030060385d3ad3b7cc3b13b8918542c28a014519246a2 218612 main/binary-arm64/gstreamer1.0-wpe_1.24.10-3-rk_arm64.deb
  1b900fe07ba3fbf3cb67f46b9208fc636b4545d4afea667b65d20566d03d4f21 34178748 main/binary-arm64/cobalt_1.0.2-rk.deb
+ eabc6e0db5eac93d4a1a26bc17566bf5e0d2b593bc3e75ad230d7b4308f7768c 178000 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.10-2-rk_arm64.deb
  dbbac6169ce3b36af5daba6d4fb55c8f679d8c5f25f0461ffcae8387080f70e0 198404 main/binary-arm64/libswscale8_7.1-3-rk_arm64.deb
  ef608c9a9df97dcd82604b2cbf58b20c6180fc3a974be62bb3b23b030cf94c30 91412 main/binary-arm64/dvb-tools-dbgsym_1.28.1-1-rk_arm64.deb
  a7e27a6130a172fd37b1012adb3261689bb4cff3d6aba074aba3c4764f5fe504 5396992 main/binary-arm64/libavcodec61_7.1-3-rk_arm64.deb
  b55bed8a8fd08389103f8470be8a033af0e5006007b855bdbcc91b58cc050ee7 905992 main/binary-arm64/librockchip-mpp1_1.0.11-2_arm64.deb
  ce73c154a0d22a9b29d8f5e00ca6fb60a44425b7e5fb5befa2a6ed0b0c2a765d 846452 main/binary-arm64/ffmpeg-dbgsym_7.1-3-rk_arm64.deb
- 84884809491cab9ca2b8075477e459590f3d9cfea445c7d0d295273c24186e0b 484276 main/binary-arm64/libgstreamer-plugins-bad1.0-dev_1.24.10-2-rk_arm64.deb
  3ea6109e74e295ce765298cc0e209eb20bcdefe75d56b401b1d6a24d82b4c199 48368 main/binary-arm64/libavcodec-extra_7.1-3-rk_arm64.deb
+ 539a4536c97d5b7dbb30822b934435615c42a445fa2917ea9e58608b5ac97998 2928068 main/binary-arm64/libgstreamer-plugins-bad1.0-0-dbgsym_1.24.10-3-rk_arm64.deb
+ bbca3208e4863a9f4bd7351460f52e928d2a86a164beb3d348a4795c8d331f23 115428 main/binary-arm64/gstreamer1.0-alsa_1.24.10-2-rk_arm64.deb
  b3111f8613d4dbd26044ca7126f6dfc97c71f092e6fc82b5e82d71a7bb0ba915 3539008 main/binary-arm64/libavformat61-dbgsym_7.1-3-rk_arm64.deb
+ 2b5b97e65083bd444d8965d4aae4c5e1be19527ec0a13e2bc5d645113a541c87 906372 main/binary-arm64/libgstreamer-plugins-base1.0-0_1.24.10-2-rk_arm64.deb
+ 274619cc6a77a3e53d579af0423bd2201fd096cadabeb93893154c6bed64875b 10459060 main/binary-arm64/gstreamer1.0-plugins-bad-dbgsym_1.24.10-3-rk_arm64.deb
  f18f847527ea77aab031e80269d6ee20fdd02b28f44b2f3b4fca2dfc71d509dd 2045376 main/binary-arm64/gstreamer1.0-plugins-good_1.24.10-1-rk_arm64.deb
  869ab74b19910430d340576bc1212882b7a223267c8e830cbe262d8c2d5f7cdd 1420240 main/binary-arm64/gstreamer1.0-qt5-dbgsym_1.24.10-1-rk_arm64.deb
  236b0120ef9f0d60588036fe9512c5bc30bc5057009b48fc3ab8e704fdbcffad 24356 main/binary-arm64/librga-dev_2.10.4-1_arm64.deb
+ 75f65423dbc236078542afd015271b5aab2ab05bf1f9b8689e8153e51e4f1927 554696 main/binary-arm64/libgstreamer-plugins-base1.0-dev_1.24.10-2-rk_arm64.deb
  4aced2ba6c5875b75ec3aa1085a32b98cfbac0cba62a7c5e5c1767081b236f66 1009804 main/binary-arm64/libavutil59-dbgsym_7.1-3-rk_arm64.deb
  6c215fcd9e138ecf425da937b2e590a2f6ba1ebe661e4ac3fdff89a76fb427eb 2003292 main/binary-arm64/libavfilter-dev_7.1-3-rk_arm64.deb
- 780cc97db036fc0e39b6fa137bbe56b6b1ce05ca67532b3619d30cda79c49200 2785844 main/binary-arm64/gstreamer1.0-plugins-bad_1.24.10-2-rk_arm64.deb
- 561f3fe39a29b22a31ed4a5dafa5c7909e8db0659554defc6aaaf58c0286681f 218812 main/binary-arm64/gstreamer1.0-wpe_1.24.10-2-rk_arm64.deb
  aa607f8cd707d7fd0c6df9f0859154a9540bd7fe613f14d7285620d35578496e 48368 main/binary-arm64/libavfilter-extra_7.1-3-rk_arm64.deb
- b35eae8582b8dab3840cfaa827b9c0c5de0c975e2ea2cb99708290542f356c13 236867 main/binary-arm64/Packages
+ 9b0342c9d9e8fdd8d79673f2ac9489b7f22b48dd5a0216ae3a4b1f77cb20ff65 236755 main/binary-arm64/Packages
  83b224b57297394d4a639d484be554e8554c2315e585ac2f7bce004ad6b8d316 107420 main/binary-arm64/libavdevice61_7.1-3-rk_arm64.deb
- 5c5e4971775eb7d9a516b21e5876f5e1ef31189a24f85140fa0a9a02f9116f48 115584 main/binary-arm64/gstreamer1.0-alsa_1.24.10-1-rk_arm64.deb
  73f414d596adf0f15e48fbd74fa4c3bc541c50d02c0a16791673e72033e3a77f 77768 main/binary-arm64/libv4l-0t64-dbgsym_1.28.1-1-rk_arm64.deb
+ fac7216543862e18abcc76f1132e4f49c63f3260b8feda0724ef8fd7ad97cc47 329336 main/binary-arm64/gstreamer1.0-gl-dbgsym_1.24.10-2-rk_arm64.deb
  e3de120dd4121b5d628c1271f905928de1b69deb0ed0d0da5438812a6c94c2bd 378504 main/binary-arm64/libavutil59_7.1-3-rk_arm64.deb
- f287dfd537a935cdb0721d9762c9b4db7018880f09b60f99099082de3e48436a 177888 main/binary-arm64/gir1.2-gst-plugins-base-1.0_1.24.10-1-rk_arm64.deb
  0118edb195dec374df9619052b22da744c3f7b9ab5392b6bcfb25e6c48587336 86936 main/binary-arm64/gstreamer1.0-gtk3-dbgsym_1.24.10-1-rk_arm64.deb
  a1c7718006db9df6a4baf5d2c41ed9c1d60bc20e2d06662db5b8584ff1b348b8 3657416 main/binary-arm64/libavfilter10_7.1-3-rk_arm64.deb
- 6706c463ac3b7b6db70a4c93f7af4d17f54d563e8b3af0ba40b52ac80e5b7b0e 180640 main/binary-arm64/gstreamer1.0-gl_1.24.10-1-rk_arm64.deb
- 2d44f31203bf50474b4ef6990d83f11d96ede6f6e68cef7c7d4a1078a57ad429 10458524 main/binary-arm64/gstreamer1.0-plugins-bad-dbgsym_1.24.10-2-rk_arm64.deb
- ac69d750ed881c97cd5c67e5fbfe8b379618ee07b8e710279fe8e8380237f949 79476 main/binary-arm64/libgstreamer-opencv1.0-0-dbgsym_1.24.10-2-rk_arm64.deb
+ d2c47e880c1041b074026d91c932370f865a2f892ca411b6a1ca1bc52f5f53d4 197576 main/binary-arm64/libgstreamer-opencv1.0-0_1.24.10-3-rk_arm64.deb
+ 0fbc9a06a2774ea43b72c5f5ed1817febfed230c8ae7caad4a1c5db4f7750680 113076 main/binary-arm64/gstreamer1.0-plugins-base-apps_1.24.10-2-rk_arm64.deb
+ e4f4c1320cdf90dcf27caa0495f7c863534bcc01f2038bd36bc0dc358f6eb3d6 2787540 main/binary-arm64/gstreamer1.0-plugins-bad_1.24.10-3-rk_arm64.deb
+ 44ad175f89f9fa256126327969f089686615cc9d9f6a03d58e6a2a7c504397a9 2131136 main/binary-arm64/gstreamer1.0-plugins-base-dbgsym_1.24.10-2-rk_arm64.deb
  3b93113ec0a7104d36fcd6774aeed41802785f3a5ab8a79f96d5d52e06089dd1 222024 main/binary-arm64/libavdevice61-dbgsym_7.1-3-rk_arm64.deb
  66152f1d77f77871a7acefe052ceb5bdde26ece4887a1a27b6f9b1c5c8359b37 119004 main/binary-arm64/gir1.2-gstreamer-1.0_1.24.10-2-rk_arm64.deb
+ b7815cdbd814022eb2b04f89b31082bc60280338d8137f90d7867de511e9efd8 23400 main/binary-arm64/gstreamer1.0-plugins-bad-apps-dbgsym_1.24.10-3-rk_arm64.deb
  7db699c3b4b9f19b851df9529f122a3d086de6a87be23da0640e24c9689ea8de 189836 main/binary-arm64/qv4l2_1.28.1-1-rk_arm64.deb
  4aad2829f7028a270358bdd808c94ef7c9ff64cde24954c5ef8b9a5385c0fb5c 21641136 main/binary-arm64/libavcodec61-dbgsym_7.1-3-rk_arm64.deb
- bd067e692f32867caba0f8e795dbea8afa228cd27dbc9c10893974983ca84976 1007364 main/binary-arm64/gstreamer1.0-opencv-dbgsym_1.24.10-2-rk_arm64.deb
+ 01ba866a45a298c230a725649fda9c8af8ad8c1b472c757cb39fdfba8e0b1ba6 1007372 main/binary-arm64/gstreamer1.0-opencv-dbgsym_1.24.10-3-rk_arm64.deb
  72552986c07c8625185ed4ab73c3b6a8461d83060629cd52fc9507da6d18060e 3660344 main/binary-arm64/libavfilter-extra10_7.1-3-rk_arm64.deb
- 47973b67b29516f0c6ae7409bfb90d657c04722a8a2caaab92f335f9f052c855 63936 main/binary-arm64/gstreamer1.0-rockchip1_1.14.4-3_arm64.deb
  477e7b34278cf604fcad6db62c33d53bdecf1be7824cdbcbed2bdebfcd8f45f2 233268 main/binary-arm64/libdvbv5-0t64-dbgsym_1.28.1-1-rk_arm64.deb
- 913009a72d93aca00145928a759ff971447cba1bdf62d94b09099e29fb059455 144228 main/binary-arm64/gstreamer1.0-wpe-dbgsym_1.24.10-2-rk_arm64.deb
- 45e584a178214ac9e9753c6f6e91af4bf6333457d4ca11ca7c1a7cff03eb4703 2517012 main/binary-arm64/libgstreamer-plugins-base1.0-0-dbgsym_1.24.10-1-rk_arm64.deb
- 7bcd1c870d5373bcfe13b33ba83f782c07540f1e6a43b4c59f92339251bd515e 604112 main/binary-arm64/libgstreamer-gl1.0-0-dbgsym_1.24.10-1-rk_arm64.deb
- 88f08959fae7e503a830d358fa660a39e8d367a7f56ac111dfff7562b69561b8 200860 main/binary-arm64/gstreamer1.0-plugins-bad-apps_1.24.10-2-rk_arm64.deb
+ 88a1f3e55f08a6a99af1a1e0556819da3835d037e9b601f0ff9b4dca102cd68b 874740 main/binary-arm64/libgstreamer-plugins-bad1.0-0_1.24.10-3-rk_arm64.deb
  c66a4edab43fbc5acca7255ded10d323de87c58fbdfba42e09e6d5349c85c5b0 1978600 main/binary-arm64/ffmpeg_7.1-3-rk_arm64.deb
  cd5d13b32622d49fd427b1fc536314ba953f6e957ec26fbdeca929e7d8e38540 2314816 main/binary-arm64/ffmpeg-doc_7.1-3-rk_all.deb
  10b484d9f4d8806225c15c423402df6c65a71ec2f66c1733615b1c33303c2fea 21748 main/binary-arm64/libv4l2rds0t64-dbgsym_1.28.1-1-rk_arm64.deb
@@ -2597,16 +2599,14 @@ SHA256:
  794c4939d20f88dffc575aef25d52d041d5160fe2d480058adf8aa6c08a8e5d6 13956 main/binary-arm64/libgstreamer1.0-dev-dbgsym_1.24.10-2-rk_arm64.deb
  853286206b3c94ba1c2fee36ed24cff365d0c3c2ec2cfffe88b62f6c0b050cdf 120632 main/binary-arm64/dvb-tools_1.28.1-1-rk_arm64.deb
  250dd096b7874ec18b55f2f5681dcf90732624f4023b02a24309d73faf2e9bca 133992 main/binary-arm64/rockchip-mpp-demos_1.0.11-2_arm64.deb
- 4ac009a33dabba11a08c4c5c72852e668cba4af8a5e7919a26ff53cb028bff5d 2131756 main/binary-arm64/gstreamer1.0-plugins-base-dbgsym_1.24.10-1-rk_arm64.deb
  3ac503398b34259171a045f678e26c63586f43d8b36e6de3b5634c74f36ebf61 164272 main/binary-arm64/gstreamer1.0-plugins-ugly_1.24.10-1_arm64.deb
- fa41801a8d7fa6c5fcf2ef3285e16d04afae276277168f664c01ca0e8fdd64e0 334212 main/binary-arm64/gstreamer1.0-rockchip1-dbgsym_1.14.4-3_arm64.deb
- 876ab7c4867a77bd23e3f7379565045e3006f7f87ee7583d4462fff6521752d2 71372 main/binary-arm64/gstreamer1.0-plugins-base-apps-dbgsym_1.24.10-1-rk_arm64.deb
- 8bd55084e862e8cfe47cac61b6e183e9ff760c63ada31a3d87051fa97a463d59 112904 main/binary-arm64/gstreamer1.0-plugins-base-apps_1.24.10-1-rk_arm64.deb
+ b5c4dc8e2c7b4d9144e9a7a28bbdf5be9f603d63942b8fbe362275f8fb25b37c 180648 main/binary-arm64/gstreamer1.0-gl_1.24.10-2-rk_arm64.deb
+ 3fb8ed2669e6f343a7427d422188eb4ec2208b521b318eab378df5e19c7ba658 144240 main/binary-arm64/gstreamer1.0-wpe-dbgsym_1.24.10-3-rk_arm64.deb
  2d07fc504cba3e2a282f7f3f632a135e3117dc0b997450d3521d33139b26fdbe 114648 main/binary-arm64/gstreamer1.0-gtk3_1.24.10-1-rk_arm64.deb
  795fba2a923ab4537125b144247fe7f4308cddb425031689bd56e3404ab064f8 6394916 main/binary-arm64/gstreamer1.0-plugins-good-dbgsym_1.24.10-1-rk_arm64.deb
  50f251fe2e5c8965732e2dc94de976dda2a2fed21538175cc8663336308d0963 1377684 main/binary-arm64/libavformat-dev_7.1-3-rk_arm64.deb
- 51481356cd260b813c00f6f903e4098f9c1da31d84cefdd243657a88c123b05e 854 Release.gpg
- abb4dd402132389ce04a49cb29d5774f5271317680d39510bfe6fa1a1ad30ae8 385813 InRelease
+ b0c057feb4d92f0e02c54de1076073f76a9b51cb49a4e6de38b9ef83efd7096f 854 Release.gpg
+ d3c9b099cfd3e7901dc1b2d1daf690d5aed436ae4158b4589a81294adddeba14 386153 InRelease
  d3362d8b4082910fc0c8c1061a36affb0d4d91dc71f0f747b60ce390bea49c88 122936 base/binary-arm64/libfm4t64_1.3.2-4.1+b1_arm64.deb
  1320e8813d3cce316777587210cbd9d93ba1d1ba0c12b049a002243f617ca756 2287300 base/binary-arm64/libqt5widgets5t64_5.15.15+dfsg-2_arm64.deb
  8c3bad3a5360cdea152a9dd168f22f20c1fbc4899a596320fe4fefe366d3c71b 309316 base/binary-arm64/libnettle8t64_3.10-1+b1_arm64.deb
